@@ -2,7 +2,7 @@
   "name": "yeps-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.yeps-seattle.com/",
+  "homepage": "https://jsy1218.github.io/cypa-yeps-website/",
   "dependencies": {
     "@types/react-bootstrap": "^0.32.14",
     "bootstrap": "^4.1.3",

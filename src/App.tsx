@@ -1,12 +1,12 @@
 import * as React from 'react';
 import './App.css';
-const imgSource = require('src/img/mockup.png');
+// const imgSource = require('https://github.com/jsy1218/cypa-yeps-website/blob/master/src/img/mockup.png');
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-         <img src={String(imgSource)} alt="Mockup"/>
+         <img src="https://github.com/jsy1218/cypa-yeps-website/raw/master/src/img/mockup.png" width="70%" height="70%" alt="Mockup"/>
       </div>
     );
   }
