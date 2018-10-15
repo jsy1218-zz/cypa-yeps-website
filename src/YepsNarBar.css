@@ -1,0 +1,14 @@
+.navBarRectangle {
+    width: 1440px;
+    height: 115px;
+    opacity: 0.63;
+    background-color: #ffffff;
+  }
+
+  .foo {
+    color: red;
+  }
+  .barBaz {
+    color: tomato;
+  }
+  
