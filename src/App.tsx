@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './App.css';
-import YepsNavBar from './components/YepsNavBar';
+import { YepsNavBar } from './components/YepsNavBar';
 
 class App extends React.Component {
   public render() {
