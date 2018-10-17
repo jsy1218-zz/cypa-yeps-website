@@ -9,7 +9,7 @@ export const YepsNavBar: React.StatelessComponent<{}> = () => {
     const logo = require('../images/logo.png');
 
     return (
-        <Navbar className="navBarRectangle" inverse collapseOnSelect>
+        <Navbar inverse collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
                     <img className="navbar-icon" src={logo} alt="logo"/>
@@ -17,16 +17,16 @@ export const YepsNavBar: React.StatelessComponent<{}> = () => {
             </Navbar.Header>
             <Navbar.Collapse>
                 <Nav pullRight>
-                    <NavLink to="#keynote">
+                    <NavLink className="font" to="#keynote">
                         Keynote
                     </NavLink>
-                    <NavLink to="#speakers">
+                    <NavLink className="font" to="#speakers">
                         Speakers
                     </NavLink>
-                    <NavLink to="#agenda">
+                    <NavLink className="font" to="#agenda">
                         Agenda
                     </NavLink>
-                    <NavLink to="#about">
+                    <NavLink className="font" to="#about">
                         About
                     </NavLink>
                 </Nav>
