@@ -1,20 +1,22 @@
 import * as React from 'react';
 
+import { Button } from 'react-bootstrap';
 import { NavItem, Nav, Navbar } from 'react-bootstrap';
-
-import './YepsNavBar.css';
 
 export const YepsNavBar: React.StatelessComponent<{}> = () => {
     const logo = require('../images/logo.png');
 
     return (
-        <Navbar className="navBarRectangle" inverse collapseOnSelect>
+        <Navbar className="navBarRectangle" collapseOnSelect>
             <Navbar.Header>
                 <Navbar.Brand>
                     <img className="navbar-icon" src={logo} alt="logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle />
             </Navbar.Header>
+            <Navbar.Form pullLeft>
+                <Button type="submit">Language</Button>
+            </Navbar.Form>
             <Navbar.Collapse>
                 <Nav pullRight>
                     <NavItem eventKey={1} href="#">
