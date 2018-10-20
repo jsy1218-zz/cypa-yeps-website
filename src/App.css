@@ -19,10 +19,16 @@
 }
 
 .App-intro {
-  font-size: large;
+  height: 800px;
+  background-image: url('./images/discussion.png');
+  background-size: auto;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

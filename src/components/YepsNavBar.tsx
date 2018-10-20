@@ -1,35 +1,56 @@
 import * as React from 'react';
-import * as classnames from 'classnames/bind';
 
 import { Button } from 'react-bootstrap';
 import { NavItem, Nav, Navbar } from 'react-bootstrap';
 
-const cx = classnames.bind(require('./YepsNavBar.scss'));
+import './YepsNavBar.css';
 
-export const YepsNavBar: React.StatelessComponent<{}> = () => {
-    const logo = require('../images/logo.png');
+interface Props { } 
+interface State { isExpanded: boolean; }
 
-    return (
-        <Navbar collapseOnSelect>
-        <Navbar.Header>
-            <Navbar.Brand>
-                <img className={cx('logo-wrapper')} src={logo} alt="logo"/>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-        </Navbar.Header>
-        <Navbar.Collapse>
-            <Nav pullRight>
-            <NavItem eventKey={1} href="#">
-                <Button type="submit">Language</Button>
-            </NavItem>
-            <NavItem eventKey={2} href="#">
-                Link Right
-            </NavItem>
-            <NavItem eventKey={3} href="#">
-                Link Right
-            </NavItem>
-            </Nav>
-        </Navbar.Collapse>
-        </Navbar>
-    );
+export default class YepsNavBar extends React.Component<Props, State> {
+    constructor(props: Props) {
+        super(props);
+        this.state = { isExpanded: false };
+    }
+
+    expandCollapse = () => {
+        this.setState((s) => ({isExpanded: !s.isExpanded}));
+    }
+    
+    render() {
+        let logo = require('../images/logo.png');
+        let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : '';
+        let languageButton = this.state.isExpanded ? 'collapsed-menu' : '';
+
+        return (
+            <Navbar collapseOnSelect>
+                <Navbar.Header>
+                    <Navbar.Brand>
+                        <img className={'logo-wrapper'} src={logo} alt="logo"/>
+                    </Navbar.Brand>
+                    <Navbar.Toggle onClick={this.expandCollapse}/>
+                </Navbar.Header>
+                <Navbar.Collapse>
+                    <Nav pullRight className={collapsedMenu}>
+                        <Navbar.Form pullLeft className={languageButton}>
+                            <Button type="submit">Language</Button>
+                        </Navbar.Form>
+                        <NavItem eventKey={1} href="#">
+                            Keynote
+                        </NavItem>
+                        <NavItem eventKey={2} href="#">
+                            Speakers
+                        </NavItem>
+                        <NavItem eventKey={3} href="#">
+                            Agenda
+                        </NavItem>
+                        <NavItem eventKey={4} href="#">
+                            About
+                        </NavItem>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+        )
+    }
 }
