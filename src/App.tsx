@@ -12,8 +12,6 @@ export const App: React.StatelessComponent<{}> = () => {
           <YepsNavBar />
           <Title />
         </div>
-        <div className="App-intro-button">
-        </div>
       </div>
         <img src="https://jsy1218.github.io/src/img/mockup.png" width="70%" height="70%" alt="Mockup"/>
     </div>

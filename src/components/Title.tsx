@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Button, ButtonToolbar, Grid, Row, Col } from 'react-bootstrap';
 
 import '../constants/linebreak';
 
@@ -28,8 +28,24 @@ export const Title: React.StatelessComponent<{}> = () => {
             </Row>
 
             <Row className="show-grid margin-row">
-                <Col xs={6} xsOffset={3}>
+                <Col xs={6} xsOffset={3} className="address-font">
                     <span className="address-font">MARCH 1, 2019 | GIX, Bellvue</span>
+                </Col>
+            </Row>
+
+            <Row className="show-grid margin-row">
+                <Col xs={6} xsOffset={3} className="location-font">
+                <ButtonToolbar>
+                    <Button bsStyle="default" className="btn-default" bsSize="large">Agenda</Button>
+                </ButtonToolbar>
+                </Col>
+            </Row>
+
+            <Row className="show-grid margin-row-small margin-bottom">
+                <Col xs={6} xsOffset={3} className="location-font">
+                <ButtonToolbar>
+                    <Button bsStyle="primary" bsSize="large">Register Now</Button>
+                </ButtonToolbar>
                 </Col>
             </Row>
         </Grid>

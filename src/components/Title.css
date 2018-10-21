@@ -20,6 +20,14 @@
   margin-top: 30%;
 }
 
+.margin-bottom {
+  margin-bottom: 40%;
+}
+
+.margin-row-small {
+  margin-top: 5%;
+}
+
 .address-font {
   font-family: SFProDisplay;
   font-size: 18px;
@@ -28,6 +36,12 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
+}
+
+.btn-default {
+  color: white;
+  background-color: transparent;
+  border-color: #ccc;
 }
