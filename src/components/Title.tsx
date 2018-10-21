@@ -9,7 +9,7 @@ import { ColoredLine } from '../constants/linebreak';
 export const Title: React.StatelessComponent<{}> = () => {
     return (
         <Grid>
-            <Row className="show-grid">
+            <Row className="show-grid margin-row">
                 <Col xs={7} xsOffset={3}>
                     <span className="title-font">Young Entrprenuer &amp; Professional Summit</span>
                 </Col>
@@ -24,6 +24,12 @@ export const Title: React.StatelessComponent<{}> = () => {
             <Row className="show-grid">
                 <Col xs={6} xsOffset={3} className="location-font">
                     <span className="title-font">Seattle</span>
+                </Col>
+            </Row>
+
+            <Row className="show-grid margin-row">
+                <Col xs={6} xsOffset={3}>
+                    <span className="address-font">MARCH 1, 2019 | GIX, Bellvue</span>
                 </Col>
             </Row>
         </Grid>

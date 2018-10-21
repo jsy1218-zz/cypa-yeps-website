@@ -21,7 +21,13 @@
 .App-intro {
   background-image: url('./images/discussion.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+}
+
+.App-intro-title {
+  background-image: url('./images/wave.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
 }
 
 .wave {
