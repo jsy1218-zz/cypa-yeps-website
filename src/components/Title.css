@@ -1,0 +1,17 @@
+.title-font {
+  width: 210px;
+  height: 60px;
+  font-family: SFProDisplay;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.location-font {
+  text-align: right;
+}

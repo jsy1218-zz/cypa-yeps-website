@@ -5,3 +5,15 @@
 .collapsed-menu {
   margin: 0px;
 }
+
+/* this is to override .navbar-default from the bootstrap css file */
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.language-button {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+}

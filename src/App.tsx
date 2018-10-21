@@ -1,12 +1,19 @@
 import * as React from 'react';
 import './App.css';
 import YepsNavBar from './components/YepsNavBar';
+import Title from './components/Title';
 
 export const App: React.StatelessComponent<{}> = () => {
   return (
+
     <div className="App">
       <div className="App-intro">
-        <YepsNavBar />
+        <div className="App-intro-title">
+          <YepsNavBar />
+          <Title />
+        </div>
+        <div className="App-intro-button">
+        </div>
       </div>
         <img src="https://jsy1218.github.io/src/img/mockup.png" width="70%" height="70%" alt="Mockup"/>
     </div>
