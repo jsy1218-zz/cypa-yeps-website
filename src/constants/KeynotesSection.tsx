@@ -19,7 +19,7 @@ export const KeynotesSection = ({ imgSource, title, paragraph }: Props) => (
 
         <Row className="show-grid keynotes-title-layout">
             <Col xs={7} xsOffset={3}>
-                <h3>{title}</h3>
+                <h4>{title}</h4>
             </Col>
         </Row>
 
