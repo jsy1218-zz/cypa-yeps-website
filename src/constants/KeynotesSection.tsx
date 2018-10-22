@@ -12,19 +12,19 @@ export interface Props {
 export const KeynotesSection = ({ imgSource, title, paragraph }: Props) => (
     <Grid>
         <Row className="show-grid keynotes-title-layout">
-            <Col xs={7} xsOffset={3}>
+            <Col xs={10} xsOffset={1}>
                 <img src={imgSource} />
             </Col>
         </Row>
 
         <Row className="show-grid keynotes-title-layout">
-            <Col xs={7} xsOffset={3}>
+            <Col xs={10} xsOffset={1}>
                 <h4>{title}</h4>
             </Col>
         </Row>
 
-        <Row className="show-grid">
-            <Col xs={7} xsOffset={3}>
+        <Row className="show-grid keynotes-title-layout">
+            <Col xs={10} xsOffset={1}>
                 <p>{paragraph}</p>
             </Col>
         </Row>
