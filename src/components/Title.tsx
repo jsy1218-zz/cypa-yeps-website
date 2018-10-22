@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { Button, ButtonToolbar, Grid, Row, Col } from 'react-bootstrap';
 
-import '../constants/linebreak';
-
 import './Title.css';
-import { ColoredLine } from '../constants/linebreak';
+import { ColoredLine } from '../constants/ColoredLine';
 
 export const Title: React.StatelessComponent<{}> = () => {
     return (

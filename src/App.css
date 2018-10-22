@@ -38,6 +38,10 @@
   background-repeat: no-repeat;
 }
 
+.keynotes {
+  background-color: #f7f7f7;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
