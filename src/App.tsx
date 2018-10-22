@@ -13,6 +13,8 @@ export const App: React.StatelessComponent<{}> = () => {
           <Title />
         </div>
       </div>
+      <div className="keynotes">
+      </div>
         <img src="https://jsy1218.github.io/src/img/mockup.png" width="70%" height="70%" alt="Mockup"/>
     </div>
   );
