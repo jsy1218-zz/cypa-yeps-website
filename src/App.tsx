@@ -3,6 +3,7 @@ import * as React from 'react';
 import YepsNavBar from './components/YepsNavBar';
 import Title from './components/Title';
 import Keynotes from './components/Keynotes';
+import Speakers from './components/Speakers';
 
 import './App.css';
 
@@ -17,6 +18,9 @@ export const App: React.StatelessComponent<{}> = () => {
       </div>
       <div className="keynotes">
         <Keynotes />
+      </div>
+      <div className="speakers">
+        <Speakers />
       </div>
     </div>
   );

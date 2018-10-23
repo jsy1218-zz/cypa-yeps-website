@@ -1,0 +1,11 @@
+.speakers-img {
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  right: auto;
+  left: auto;
+  position: relative;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}

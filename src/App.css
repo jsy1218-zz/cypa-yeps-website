@@ -42,6 +42,11 @@
   background-color: #f7f7f7;
 }
 
+.speakers {
+  opacity: 0.93;
+  background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
