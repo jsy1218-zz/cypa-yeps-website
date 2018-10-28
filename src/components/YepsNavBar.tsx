@@ -3,6 +3,8 @@ import * as React from 'react';
 import { Button } from 'react-bootstrap';
 import { NavItem, Nav, Navbar } from 'react-bootstrap';
 
+import { KEYNOTE_ROUTE, SPEAKERS_ROUTE } from '../constants/AppRouterConstants';
+
 import './YepsNavBar.css';
 
 interface Props { } 
@@ -37,16 +39,16 @@ export default class YepsNavBar extends React.Component<Props, State> {
                             <Navbar.Form pullLeft className={languageButton}>
                                 <Button className={'language-button'} type="submit">Language</Button>
                             </Navbar.Form>
-                            <NavItem eventKey={1} href="#">
+                            <NavItem eventKey={1} href={KEYNOTE_ROUTE}>
                                 Keynote
                             </NavItem>
-                            <NavItem eventKey={2} href="#">
+                            <NavItem eventKey={2} href={SPEAKERS_ROUTE}>
                                 Speakers
                             </NavItem>
-                            <NavItem eventKey={3} href="#">
+                            <NavItem eventKey={3} href="#agenda">
                                 Agenda
                             </NavItem>
-                            <NavItem eventKey={4} href="#">
+                            <NavItem eventKey={4} href="#about">
                                 About
                             </NavItem>
                         </Nav>
