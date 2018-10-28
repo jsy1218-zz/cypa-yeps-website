@@ -8,7 +8,6 @@ export const AppRouter: React.StatelessComponent<{}> = () => {
             <div className="container-fluid">
                 <Route component={App} />
                 <Switch>
-                    <Route exact path="/" component={App} />
                 </Switch>
             </div>
         </Router>
