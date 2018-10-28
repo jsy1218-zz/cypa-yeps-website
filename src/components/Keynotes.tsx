@@ -15,7 +15,7 @@ export const Keynotes: React.StatelessComponent<{}> = () => {
         <Grid>
             <Row className="show-grid keynotes-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3>— keynotes —</h3>
+                    <h3><span className="keynotes-title-font">— Keynotes —</span></h3>
                 </Col>
             </Row>
 
