@@ -21,7 +21,6 @@ export default class YepsNavBar extends React.Component<Props, State> {
     render() {
         let logo = require('../images/logo.png');
         let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : '';
-        let languageButton = this.state.isExpanded ? 'collapsed-menu' : '';
 
         return (
             <div className={'navbar-default'}>
@@ -31,10 +30,12 @@ export default class YepsNavBar extends React.Component<Props, State> {
                             <img className={'logo-wrapper'} src={logo} alt="logo"/>
                         </Navbar.Brand>
                         <Navbar.Toggle onClick={this.expandCollapse}/>
+                        <Button className={'language-button, test-language-button'} type="submit">Language</Button>
                     </Navbar.Header>
+                    
                     <Navbar.Collapse>
                         <Nav pullRight className={collapsedMenu}>
-                            <Navbar.Form pullLeft className={languageButton}>
+                            <Navbar.Form pullLeft className={'test-language-button-in-collapse'} >
                                 <Button className={'language-button'} type="submit">Language</Button>
                             </Navbar.Form>
                             <NavItem eventKey={1} href="#">

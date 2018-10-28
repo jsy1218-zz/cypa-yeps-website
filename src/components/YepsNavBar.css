@@ -12,6 +12,31 @@
   border-color: transparent;
 }
 
+.test-language-button {
+  position: relative;
+  float: right!important;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+	.test-language-button {
+	    display: none;
+	}
+}
+
+.test-language-button-in-collapse {
+}
+@media (max-width: 768px) {
+	.test-language-button-in-collapse {
+	    display: none;
+	}
+}
+
 .language-button {
   color: #000000;
   background-color: transparent;
