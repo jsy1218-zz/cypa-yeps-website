@@ -23,14 +23,19 @@ export default class YepsNavBar extends React.Component<Props, State> {
         let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : '';
 
         return (
+            
             <div className={'navbar-default'}>
                 <Navbar collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <img className={'logo-wrapper'} src={logo} alt="logo"/>
                         </Navbar.Brand>
+
                         <Navbar.Toggle onClick={this.expandCollapse}/>
-                        <Button className={'language-button, test-language-button'} type="submit">Language</Button>
+                        <Navbar.Form pullLeft className={'test-language-button'} >
+                                <Button className={'language-button'} type="submit">Language</Button>
+                        </Navbar.Form>
+                        
                     </Navbar.Header>
                     
                     <Navbar.Collapse>
