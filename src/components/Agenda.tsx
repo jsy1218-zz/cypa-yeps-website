@@ -21,25 +21,33 @@ export const Agenda: React.StatelessComponent<{}> = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <circle cx="12" cy="13" r="9" stroke="#ffa719" stroke-width="2" fill="white" />
+                            <circle cx="12" cy="13" r="4" stroke="#ffa719" stroke-width="2" fill="#ffa719" />
+                        </svg>} 
                 >
                     <h3 className="vertical-timeline-element-title">7:30 - 8:00 AM</h3>
                     <h3 className="vertical-timeline-element-title">Registration Opens</h3>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                >
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <circle cx="12" cy="13" r="9" stroke="#ffa719" stroke-width="2" fill="white" />
+                            <circle cx="12" cy="13" r="4" stroke="#ffa719" stroke-width="2" fill="#ffa719" />
+                        </svg>}                 >
                     <h3 className="vertical-timeline-element-title">8:00 - 8:30 AM</h3>
                     <h3 className="vertical-timeline-element-title">Welcome</h3>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <circle cx="12" cy="13" r="9" stroke="#ffa719" stroke-width="2" fill="white" />
+                            <circle cx="12" cy="13" r="4" stroke="#ffa719" stroke-width="2" fill="#ffa719" />
+                        </svg>}     
                 >
                     <h3 className="vertical-timeline-element-title">8:30 - 9:30 AM</h3>
                     <h3 className="vertical-timeline-element-title">Keynote: Career</h3>
-                    <p>
+                    <p className="agenda-paragraph">
                     Barcoding's commitment to our customers is that we provide them with the ability to be more efficient, 
                     accurate, and connected. This year we will host two content tracks to help you do just that.
                     </p>
@@ -51,18 +59,24 @@ export const Agenda: React.StatelessComponent<{}> = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <circle cx="12" cy="13" r="9" stroke="#ffa719" stroke-width="2" fill="white" />
+                            <circle cx="12" cy="13" r="4" stroke="#ffa719" stroke-width="2" fill="#ffa719" />
+                        </svg>}     
                 >
                     <h3 className="vertical-timeline-element-title">12:00 - 1:00 PM</h3>
                     <h3 className="vertical-timeline-element-title">Lunch</h3>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <circle cx="12" cy="13" r="9" stroke="#ffa719" stroke-width="2" fill="white" />
+                            <circle cx="12" cy="13" r="4" stroke="#ffa719" stroke-width="2" fill="#ffa719" />
+                        </svg>}     
                 >
                     <h3 className="vertical-timeline-element-title">1:00 - 2:00 PM</h3>
                     <h3 className="vertical-timeline-element-title">Breakout Sessions</h3>
-                    <p>
+                    <p className="agenda-paragraph">
                     Barcoding's commitment to our customers is that we provide them with the ability to be more efficient, 
                     accurate, and connected.
                     </p>
@@ -74,7 +88,10 @@ export const Agenda: React.StatelessComponent<{}> = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    icon={<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <circle cx="12" cy="13" r="9" stroke="#ffa719" stroke-width="2" fill="white" />
+                            <circle cx="12" cy="13" r="4" stroke="#ffa719" stroke-width="2" fill="#ffa719" />
+                        </svg>}     
                 >
                     <h3 className="vertical-timeline-element-title">4:30 - 5:00 PM</h3>
                     <h3 className="vertical-timeline-element-title">Closing Remarks</h3>
