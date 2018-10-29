@@ -47,6 +47,10 @@
   background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93);
 }
 
+.agenda {
+  background-color: #f7f7f7;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

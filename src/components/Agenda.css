@@ -1,0 +1,42 @@
+.agenda-title-layout {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.agenda-title-layout-small {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.agenda-title-font {
+  width: 172px;
+  height: 36px;
+  font-family: SFProDisplay;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.agenda-meme {
+  text-align: center;
+}
+
+.agenda-meme-font {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: SFProText;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+}

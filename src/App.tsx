@@ -4,6 +4,7 @@ import YepsNavBar from './components/YepsNavBar';
 import Title from './components/Title';
 import Keynotes from './components/Keynotes';
 import Speakers from './components/Speakers';
+import Agenda from './components/Agenda';
 
 import './App.css';
 
@@ -21,6 +22,9 @@ export const App: React.StatelessComponent<{}> = () => {
       </div>
       <div className="speakers">
         <Speakers />
+      </div>
+      <div className="agenda">
+        <Agenda />
       </div>
     </div>
   );
