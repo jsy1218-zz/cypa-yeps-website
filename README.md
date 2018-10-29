@@ -29,7 +29,7 @@ You will also see any lint errors in the console.
 
 >Note: this feature is available with `react-scripts@0.2.0` and higher.
 
->Note: For custom domain deployment, it assumes that the domain has been purchased with the DNS provider. Currently, www.yeps-seattle.com is not purchased yet.
+>Note: For custom domain deployment, it assumes that the domain has been purchased with the DNS provider. Currently, http://www.globalcypa.org/ is the primary full qualified domain name, and we plan to register secondary domain name on top of it, e.g. http://yeps.globalcypa.org/
 
 >Note: If you want to test with remote server instead of local, but do not want to deploy to Production directly, it is recommended to folk from this branch, and create a github site under your own user name.
 
@@ -38,13 +38,13 @@ You will also see any lint errors in the console.
 **The step below is important!**<br>
 **If you skip it, your app will not deploy correctly.**
 
-Open your `package.json` and add a `homepage` field for your project. Currently the homepage has a custom full qualified domain name. Currently it is:
+Open your `package.json` and add a `homepage` field for your project. Currently the homepage does not use the secondary qualified domain name, (although not registered yet). However, once registered, it is:
 
 ```json
-  "homepage": "https://www.yeps-seattle.com/",
+  "homepage": "http://yeps.globalcypa.org/",
 ```
 
-, along with `CNAME` file "www.yeps-seattle.com" to the `public/` folder.
+, along with `CNAME` file "http://yeps.globalcypa.org/" to the `public/` folder.
 
 Although you can also put the github site. For test server deployment, I put
 
