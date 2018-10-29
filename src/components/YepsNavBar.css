@@ -12,30 +12,20 @@
   border-color: transparent;
 }
 
-.test-language-button {
-  margin: 0px;
-  padding: 8px;
-  border: none;
-  box-shadow: none;
-}
-@media (min-width: 768px) {
-  .test-language-button {
-  	display: none;
-  }
-}
-
-.test-language-button-in-collapse {
-}
-@media (max-width: 768px) {
-  .test-language-button-in-collapse {
-    display: none;
-  }
-}
-
 .language-button {
   color: #000000;
   background-color: transparent;
   border-color: #000000;
   float: right;
   margin-right: 15px;
+}
+
+.test-language-button {
+  margin: 0px;
+  padding: 8px;
+  border: none;
+  box-shadow: none;
+}
+
+.test-language-button-in-collapse {
 }

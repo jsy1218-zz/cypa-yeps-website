@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { Button } from 'react-bootstrap';
 import { NavItem, Nav, Navbar } from 'react-bootstrap';
+import { isMobile, isBrowser } from 'react-device-detect'; 
 
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE } from '../constants/AppRouterConstants';
 
@@ -20,31 +21,50 @@ export default class YepsNavBar extends React.Component<Props, State> {
         this.setState((s) => ({isExpanded: !s.isExpanded}));
     }
     
+    renderTopButton = () => {
+        if (isMobile) {
+            return  <Navbar.Form pullLeft className={'test-language-button'}>
+                        <Button className={'language-button'} type="submit">Language</Button>
+                    </Navbar.Form>
+        }
+
+        return '';
+    }
+
+    renderBottomButton = () => {
+        if (isBrowser) {
+            return  <Navbar.Form pullLeft className={'test-language-button-in-collapse'}>
+                        <Button className={'language-button'} type="submit">Language</Button>
+                    </Navbar.Form>
+        }
+
+        return '';
+    }
+
     render() {
         let logo = require('../images/logo.png');
         let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : '';
 
         return (
             
-            <div className={'navbar-default'}>
-                <Navbar collapseOnSelect>
+            <div className={'navbar-default'}> 
+                <Navbar collapseOnSelect  id="top-navbar">
                     <Navbar.Header>
                         <Navbar.Brand>
                             <img className={'logo-wrapper'} src={logo} alt="logo"/>
                         </Navbar.Brand>
 
                         <Navbar.Toggle onClick={this.expandCollapse}/>
-                        <Navbar.Form pullLeft className={'test-language-button'} >
-                                <Button className={'language-button'} type="submit">Language</Button>
-                        </Navbar.Form>
+
+                        { this.renderTopButton() }
                         
                     </Navbar.Header>
                     
                     <Navbar.Collapse>
                         <Nav pullRight className={collapsedMenu}>
-                            <Navbar.Form pullLeft className={'test-language-button-in-collapse'} >
-                                <Button className={'language-button'} type="submit">Language</Button>
-                            </Navbar.Form>
+
+                            { this.renderBottomButton() }
+
                             <NavItem eventKey={1} href={'/' + KEYNOTE_ROUTE}>
                                 Keynote
                             </NavItem>
