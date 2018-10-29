@@ -16,4 +16,16 @@
   color: #000000;
   background-color: transparent;
   border-color: #000000;
+  float: right;
+  margin-right: 15px;
+}
+
+.test-language-button {
+  margin: 0px;
+  padding: 8px;
+  border: none;
+  box-shadow: none;
+}
+
+.test-language-button-in-collapse {
 }
