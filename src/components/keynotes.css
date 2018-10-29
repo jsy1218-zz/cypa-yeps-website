@@ -7,3 +7,15 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+.keynotes-title-font {
+  font-family: SFProDisplay;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
