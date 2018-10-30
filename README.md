@@ -39,7 +39,7 @@ As per **mobile first**, we are implementing the website for mobile rendering fi
 
 #### min bar
 
-The deployed website (e.g. [Github site](https://jsy1218.github.io/cypa-yeps-website/)) MUST pass the [Google ile Friendly Test](https://search.google.com/test/mobile-friendly)
+The deployed website (e.g. [Github site](https://jsy1218.github.io/cypa-yeps-website/)) MUST pass the [Google mobile Friendly Test](https://search.google.com/test/mobile-friendly)
 
 #### quality bar
 The deployed website (e.g. [Github site](https://jsy1218.github.io/cypa-yeps-website/)) needs to look asethetic on the [Multi-device screen simulator website](https://www.responsinator.com/). This is subject to the implementer's discretion, since there is no hard line in this quality bar. However, any out-of-the-line HTML rendering (e.g. cannot fix the screen) should fail to meet the quality bar.
