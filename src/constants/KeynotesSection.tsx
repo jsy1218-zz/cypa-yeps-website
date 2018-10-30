@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
-import '../components/keynotes.css';
+import '../components/Keynotes.css';
 
 export interface Props {
     imgSource: any;
