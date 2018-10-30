@@ -11,7 +11,17 @@ This code repository contains the source code to boostrap the upcoming YEPS (You
 
 ### Local Development and build
 
->Note: It assumes you have the npm dependency on local development environment. If not, please install first
+>Note: It assumes you have the npm dependency on local development environment. If not, please install first.
+
+>For your reference, below is my local development environment setup:
+
+<p align='center'>
+<img src='https://github.com/jsy1218/jsy1218.github.io/blob/master/cypa-yeps-website/Apple%20Spec.png' width='600' alt='npm start'>
+</p>
+
+<p align='center'>
+<img src='https://github.com/jsy1218/jsy1218.github.io/blob/master/cypa-yeps-website/Dependencies%20Spec.png' width='600' alt='npm start'>
+</p>
 
 In the project directory, you can run:
 
