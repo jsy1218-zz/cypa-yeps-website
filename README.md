@@ -25,11 +25,11 @@ This code repository contains the source code to boostrap the upcoming YEPS (You
 
 In the project directory, you can run:
 
-### `npm install`
+#### `npm install`
 
 This pulls all the specified dependencies from `package.json` into your local machine, so that you can bootstrap a site locally.
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
