@@ -5,12 +5,12 @@ import { NavItem, Nav, Navbar } from 'react-bootstrap';
 
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE } from '../constants/AppRouterConstants';
 
-import './YepsNavBar.css';
+import './NavBar.css';
 
 interface Props { } 
 interface State { isExpanded: boolean; }
 
-export default class YepsNavBar extends React.Component<Props, State> {
+export default class NavBar extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props);
         this.state = { isExpanded: false };
