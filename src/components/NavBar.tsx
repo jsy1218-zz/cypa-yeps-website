@@ -27,7 +27,7 @@ export default class NavBar extends React.Component<Props, State> {
 
         return (
             <div className={'navbar-default'}>
-                <Navbar collapseOnSelect>
+                <Navbar collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <img className={'logo-wrapper'} src={logo} alt="logo"/>
