@@ -45,6 +45,8 @@ As such, we target the user with browser view and mobile view. Here we do not co
 
 As per **mobile first**, we are implementing the website for mobile rendering first. We can build browser view on top of what we have already.
 
+For UI/UX mockup, we have a [zeplin project](https://app.zeplin.io/project/5bb2f0858babc5427e4cdefb/dashboard). Please request to be added.
+
 ### Quality Assurance
 
 #### min bar
