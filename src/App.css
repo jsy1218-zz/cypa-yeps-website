@@ -51,6 +51,10 @@
   background-color: #f7f7f7;
 }
 
+.connections {
+  background-color: #ffffff;
+}
+
 .join-us {
   background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93);
 }

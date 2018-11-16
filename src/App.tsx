@@ -9,6 +9,7 @@ import Agenda from './components/Agenda';
 import './App.css';
 import JoinUs from './components/JoinUs';
 import Sponsors from './components/Sponsors';
+import Connections from './components/Connections';
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE } from './constants/AppRouterConstants';
 
 export const App: React.StatelessComponent<{}> = () => {
@@ -34,6 +35,9 @@ export const App: React.StatelessComponent<{}> = () => {
       </div>
       <div className="sponsors">
         <Sponsors />
+      </div>
+      <div className="connections">
+        <Connections />
       </div>
     </div>
   );

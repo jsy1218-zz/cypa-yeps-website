@@ -14,6 +14,7 @@ export const AppRouter: React.StatelessComponent<{}> = () => {
             <div className="container-fluid">
                 <Route component={App} />
                 <Switch>
+                    <Route path='#' component={App} />
                     <Route path={'/' + KEYNOTE_ROUTE} component={Keynotes} />
                     <Route path={'/' + SPEAKERS_ROUTE} component={Speakers} />
                     <Route path={'/' + AGENDA_ROUTE} component={Agenda} />

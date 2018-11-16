@@ -1,0 +1,55 @@
+.connections-title-layout {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.connections-title-font {
+  font-family: SFProDisplay;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+
+.connections-title-font-link {
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2f4c63;
+}
+
+.connections-title-font-back {
+  font-family: SFProText;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.connections-title-layout-small {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.cypa-layout {
+  width: 160px;
+  height: 151px;
+}
+
+.logo-layout {
+  width: 40px;
+  height: 40px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
