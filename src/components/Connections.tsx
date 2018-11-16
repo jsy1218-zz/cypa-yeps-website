@@ -12,19 +12,19 @@ export const Connections: React.StatelessComponent<{}> = () => {
                 </Col>
             </Row>
 
-            <Row className="show-grid connections-title-layout-small">
+            <Row className="show-grid connections-title-layout">
                 <Col xs={10} xsOffset={1}>
                     <a className='connections-title-font-link' href="http://globalcypa.org/">http://globalcypa.org/</a>
                 </Col>
             </Row>
 
-            <Row className="show-grid connections-title-layout-small">
+            <Row className="show-grid connections-title-layout">
                 <Col xs={10} xsOffset={1}>
                     <img className='cypa-layout' src={require('../images/cypa.png')} />
                 </Col>
             </Row>
 
-            <Row className="show-grid connections-title-layout-small">
+            <Row className="show-grid connections-title-layout">
                 <Col xs={10} xsOffset={1}>
                     <img className='logo-layout' src={require('../images/wechat.png')} />
                     <img className='logo-layout' src={require('../images/linkedin.png')} />
@@ -33,7 +33,7 @@ export const Connections: React.StatelessComponent<{}> = () => {
                 </Col>
             </Row>
 
-            <Row className="show-grid connections-title-layout-small">
+            <Row className="show-grid connections-title-layout">
                 <Col xs={10} xsOffset={1}>
                     <a className='connections-title-font-back' href="#">Back to top</a>
                 </Col>
