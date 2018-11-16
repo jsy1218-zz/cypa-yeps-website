@@ -15,7 +15,7 @@ importScripts("/cypa-yeps-website/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/cypa-yeps-website/workbox-v3.6.3"});
 
 importScripts(
-  "/cypa-yeps-website/precache-manifest.0fd4cdf40bb552ee7d9b9a30d0150705.js"
+  "/cypa-yeps-website/precache-manifest.606b5c5afbc97e74bed18838a515986a.js"
 );
 
 workbox.clientsClaim();
