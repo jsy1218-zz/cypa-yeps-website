@@ -8,8 +8,10 @@
 
 /* this is to override .navbar-default from the bootstrap css file */
 .navbar-default {
-  background-color: transparent;
+  background-color: #43b3ce;
   border-color: transparent;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .language-button {
