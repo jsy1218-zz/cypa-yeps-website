@@ -32,7 +32,7 @@ export default class NavBar extends React.Component<Props, State> {
                         <Navbar.Brand>
                             <img className={'logo-wrapper'} src={logo} alt="logo"/>
                         </Navbar.Brand>
-                        <Navbar.Toggle onClick={this.expandCollapse}/>
+                        <Navbar.Toggle className={'toggle-style'} onClick={this.expandCollapse}/>
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight className={collapsedMenu}>
