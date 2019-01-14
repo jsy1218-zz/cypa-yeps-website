@@ -17,3 +17,7 @@
   background-color: transparent;
   border-color: #000000;
 }
+
+.logo-wrapper {
+  padding: 3px 0px 3px 15px;
+}
