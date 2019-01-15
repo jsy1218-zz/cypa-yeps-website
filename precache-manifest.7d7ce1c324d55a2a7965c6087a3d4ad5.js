@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
   },
   {
-    "revision": "1a6ac831e8d3916928a2",
-    "url": "/cypa-yeps-website/static/css/main.a8727c10.chunk.css"
+    "revision": "8a4eaf015eecc1a352ce",
+    "url": "/cypa-yeps-website/static/css/main.e2d464a1.chunk.css"
   },
   {
     "revision": "e69585c8f46f928592b09fe40011762f",
     "url": "/cypa-yeps-website/static/media/instagram.e69585c8.png"
   },
   {
-    "revision": "908926c6132c5e7bf31e",
-    "url": "/cypa-yeps-website/static/js/1.908926c6.chunk.js"
+    "revision": "1124af485859773dbc15",
+    "url": "/cypa-yeps-website/static/js/1.1124af48.chunk.js"
   },
   {
     "revision": "643305c4de5ff317a8cf",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "1a6ac831e8d3916928a2",
-    "url": "/cypa-yeps-website/static/js/main.1a6ac831.chunk.js"
+    "revision": "8a4eaf015eecc1a352ce",
+    "url": "/cypa-yeps-website/static/js/main.8a4eaf01.chunk.js"
   },
   {
     "revision": "37c86acf5a64428fece18ad97d960791",
@@ -76,11 +76,11 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/linkedin.75790097.png"
   },
   {
-    "revision": "908926c6132c5e7bf31e",
-    "url": "/cypa-yeps-website/static/css/1.5912fd36.chunk.css"
+    "revision": "1124af485859773dbc15",
+    "url": "/cypa-yeps-website/static/css/1.6ecc6114.chunk.css"
   },
   {
-    "revision": "d7da3297529b8ac0dea9805bee7fc14a",
+    "revision": "d97daf5cc95c5a75f09c351c6cdb2d73",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
