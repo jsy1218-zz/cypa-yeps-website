@@ -25,31 +25,31 @@ export const Speakers: React.StatelessComponent<{}> = () => {
             <Carousel>
                 <Carousel.Item>
                     <img className="speakers-img" src={speakersProps[0].imgSource} />
+                    <SpeakersSticker title={speakersProps[0].title} company={speakersProps[0].company} />
                     <Carousel.Caption>
                         <h3>{speakersProps[0].name}</h3>
                     </Carousel.Caption>
-                    <SpeakersSticker title={speakersProps[0].title} company={speakersProps[0].company} />
                 </Carousel.Item> 
                 <Carousel.Item>
                     <img className="speakers-img" src={speakersProps[1].imgSource} />
+                    <SpeakersSticker title={speakersProps[1].title} company={speakersProps[1].company} />
                     <Carousel.Caption>
                         <h3>{speakersProps[1].name}</h3>
                     </Carousel.Caption>
-                    <SpeakersSticker title={speakersProps[1].title} company={speakersProps[1].company} />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="speakers-img" src={speakersProps[2].imgSource} />
+                    <SpeakersSticker title={speakersProps[2].title} company={speakersProps[2].company} />
                     <Carousel.Caption>
                         <h3>{speakersProps[2].name}</h3>
                     </Carousel.Caption>
-                    <SpeakersSticker title={speakersProps[2].title} company={speakersProps[2].company} />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img className="speakers-img" src={speakersProps[3].imgSource} />
+                    <SpeakersSticker title={speakersProps[3].title} company={speakersProps[3].company} />
                     <Carousel.Caption>
                         <h3>{speakersProps[3].name}</h3>
                     </Carousel.Caption>
-                    <SpeakersSticker title={speakersProps[3].title} company={speakersProps[3].company} />
                 </Carousel.Item>
             </Carousel>
 
