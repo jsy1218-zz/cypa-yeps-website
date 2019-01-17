@@ -79,8 +79,6 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 4px transparent, inset 0 2px 0 transparent,
-    0 3px 0 4px transparent;
-  box-shadow: -4 0 0 0px transparent, inset 0 0px 0 transparent,
-    0 3px 0 4px transparent;
+  -webkit-box-shadow: 0px 0px !important;
+  box-shadow: 0px 0px !important;
 }
