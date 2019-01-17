@@ -8,7 +8,7 @@ export const Title: React.StatelessComponent<{}> = () => {
     return (
         <Grid>
             <Row className="show-grid margin-row">
-                <Col xs={7} xsOffset={3}>
+                <Col xs={10} xsOffset={1} md={7} mdOffset={3}>
                     <span className="title-font">Young Entrprenuer &amp; Professional Summit</span>
                 </Col>
             </Row>
