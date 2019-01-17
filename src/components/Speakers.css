@@ -34,10 +34,11 @@
 }
 
 .speakers-sticker-layout {
-  top: 50%;
-  left: 38%;
-  transform: translate(-38%, -50%);
-  position: absolute;
+  position: relative;
+  top: -50px;
+  left: -100px;
+  width: 130px;
+  margin: 0 auto;
   opacity: 0.8;
   background-color: #ffa719;
   padding: 1%;
