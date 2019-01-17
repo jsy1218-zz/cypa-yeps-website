@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
   },
   {
-    "revision": "01998ad621e7720a5ba2",
-    "url": "/cypa-yeps-website/static/css/main.5629d8cd.chunk.css"
+    "revision": "c4bbad45d09cd0604182",
+    "url": "/cypa-yeps-website/static/css/main.bf485732.chunk.css"
   },
   {
     "revision": "e69585c8f46f928592b09fe40011762f",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/js/runtime~main.643305c4.js"
   },
   {
-    "revision": "c1bf42e689cdad17a498ce5ccae2861a",
-    "url": "/cypa-yeps-website/static/media/logo.c1bf42e6.png"
+    "revision": "9a996271f7a13fc201d08630222af6f9",
+    "url": "/cypa-yeps-website/static/media/logo.9a996271.png"
   },
   {
     "revision": "a94fd353ee345c4ca53ffe0a9764ddc0",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "01998ad621e7720a5ba2",
-    "url": "/cypa-yeps-website/static/js/main.01998ad6.chunk.js"
+    "revision": "c4bbad45d09cd0604182",
+    "url": "/cypa-yeps-website/static/js/main.c4bbad45.chunk.js"
   },
   {
     "revision": "37c86acf5a64428fece18ad97d960791",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/css/1.73f93191.chunk.css"
   },
   {
-    "revision": "b937ea12de828463881c39fa1bd07ddb",
+    "revision": "b609dc5c50edbab081e8c32b74b9787a",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
