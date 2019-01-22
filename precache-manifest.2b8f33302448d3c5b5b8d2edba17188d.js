@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
   },
   {
-    "revision": "c4bbad45d09cd0604182",
-    "url": "/cypa-yeps-website/static/css/main.bf485732.chunk.css"
+    "revision": "121b28feac3cc0adba98",
+    "url": "/cypa-yeps-website/static/css/main.2f6bfe3e.chunk.css"
   },
   {
     "revision": "e69585c8f46f928592b09fe40011762f",
     "url": "/cypa-yeps-website/static/media/instagram.e69585c8.png"
   },
   {
-    "revision": "e67a50bba0b16721676b",
-    "url": "/cypa-yeps-website/static/js/1.e67a50bb.chunk.js"
+    "revision": "d6aa1cfa4ab7745256cf",
+    "url": "/cypa-yeps-website/static/js/1.d6aa1cfa.chunk.js"
   },
   {
     "revision": "643305c4de5ff317a8cf",
@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "c4bbad45d09cd0604182",
-    "url": "/cypa-yeps-website/static/js/main.c4bbad45.chunk.js"
+    "revision": "121b28feac3cc0adba98",
+    "url": "/cypa-yeps-website/static/js/main.121b28fe.chunk.js"
   },
   {
     "revision": "37c86acf5a64428fece18ad97d960791",
     "url": "/cypa-yeps-website/static/media/discussion.37c86acf.png"
   },
   {
-    "revision": "51d777bcbe0ba6130c4b826f0bae3866",
-    "url": "/cypa-yeps-website/static/media/wave.51d777bc.svg"
+    "revision": "c083a55f56c239376ad7314477f59f2f",
+    "url": "/cypa-yeps-website/static/media/wave.c083a55f.svg"
   },
   {
     "revision": "8427b2ba5d024ceb41c03bde9f928f59",
@@ -76,11 +76,11 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/linkedin.75790097.png"
   },
   {
-    "revision": "e67a50bba0b16721676b",
-    "url": "/cypa-yeps-website/static/css/1.73f93191.chunk.css"
+    "revision": "d6aa1cfa4ab7745256cf",
+    "url": "/cypa-yeps-website/static/css/1.97a481d4.chunk.css"
   },
   {
-    "revision": "b609dc5c50edbab081e8c32b74b9787a",
+    "revision": "7c8f96e4d10e22a14de980cd415793ee",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
