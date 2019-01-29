@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 import './Keynotes.css';
-import { KeynotesSection } from 'src/constants/KeynotesSection';
+import { KeynotesSectionDesktop } from 'src/constants/KeynotesSectionDesktop';
 
 export const KeynotesDesktop: React.StatelessComponent<{}> = () => {
     let keynotesProps: { imgSource: any, title: string, paragraph: string}[] = [
@@ -19,18 +19,22 @@ export const KeynotesDesktop: React.StatelessComponent<{}> = () => {
                 </Col>
             </Row>
 
-            {/* TODO: debug why array loop syntax has grammar error*/}
-            <Row className="show-grid keynotes-title-layout-small">
-                <KeynotesSection imgSource={keynotesProps[0].imgSource} title={keynotesProps[0].title} paragraph={keynotesProps[0].paragraph} />
+            <Row>
+                <KeynotesSectionDesktop
+                    imgSource={keynotesProps[0].imgSource}
+                    title={keynotesProps[0].title}
+                    paragraph={keynotesProps[0].paragraph} />
+                <KeynotesSectionDesktop
+                    imgSource={keynotesProps[1].imgSource}
+                    title={keynotesProps[1].title}
+                    paragraph={keynotesProps[1].paragraph} />
+                <KeynotesSectionDesktop
+                    imgSource={keynotesProps[2].imgSource}
+                    title={keynotesProps[2].title}
+                    paragraph={keynotesProps[2].paragraph} />
             </Row>
-
-            <Row className="show-grid keynotes-title-layout-small">
-                <KeynotesSection imgSource={keynotesProps[1].imgSource} title={keynotesProps[1].title} paragraph={keynotesProps[1].paragraph} />
-            </Row>
-
-            <Row className="show-grid keynotes-title-layout-small">
-                <KeynotesSection imgSource={keynotesProps[2].imgSource} title={keynotesProps[2].title} paragraph={keynotesProps[2].paragraph} />
-            </Row>
+            {/* TODO: Need to do this margin correctly*/}
+            <Row className="margin-placeholder"/>
         </Grid>
     );
 }

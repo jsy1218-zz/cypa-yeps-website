@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  background-image: url('./images/discussion.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.keynotes {
+  background-color: #f7f7f7;
+}
+
+.speakers {
+  opacity: 0.93;
+  background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93);
+}
+
+.agenda {
+  background-color: #f7f7f7;
+}
+
+.connections {
+  background-color: #ffffff;
+}
+
+.join-us {
+  background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -3,6 +3,10 @@
   margin-bottom: 5%;
 }
 
+.keynotes-icon {
+  height: 50px; /*This can be removed after getting the icon with correct size */
+}
+
 .keynotes-title-layout-small {
   margin-top: 2%;
   margin-bottom: 2%;
@@ -22,4 +26,13 @@
 
 .keynotes-content {
   text-align: justify;
+}
+
+.keynotes-block {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.margin-placeholder {
+  margin-bottom: 100px;
 }

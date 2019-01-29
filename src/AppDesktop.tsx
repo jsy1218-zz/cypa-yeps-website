@@ -6,7 +6,7 @@ import Keynotes from './components_desktop/Keynotes';
 import Speakers from './components_desktop/Speakers';
 import Agenda from './components_desktop/Agenda';
 
-import './App.css';
+import './AppDesktop.css';
 import JoinUs from './components_desktop/JoinUs';
 import Sponsors from './components_desktop/Sponsors';
 import Connections from './components_desktop/Connections';

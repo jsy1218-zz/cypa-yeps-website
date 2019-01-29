@@ -14,7 +14,7 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
 
             <Row className="show-grid join-us-title-layout">
                 <Col xs={10} xsOffset={1}>
-                    <p className="join-us-title-font-small">Our commitment is to provide you the ability to be more efficient, accurate, and connected. Don't miss your opportunity to attend Yeps.</p>
+                    <p className="join-us-title-font-small content">Our commitment is to provide you the ability to be more efficient, accurate, and connected. Don't miss your opportunity to attend Yeps.</p>
                 </Col>
             </Row>
 

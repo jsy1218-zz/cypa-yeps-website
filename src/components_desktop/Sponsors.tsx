@@ -20,30 +20,20 @@ export const Sponsors: React.StatelessComponent<{}> = () => {
             </Row>
 
             <Row className="show-grid sponsor-title-layout">
-                <Col className="sponsor-col">
+                <Col xs={2} xsOffset={3}>
                     <img className="sponsor-rectangle-layout" src={sponsorsProps[0].imgSource} />
-                    <div className="sponsor-rectangle-layout sponsor-background-rectangle"></div>
                 </Col>
-            </Row>
-
-            <Row className="show-grid sponsor-title-layout">
-                <Col className="sponsor-col">
+                <Col xs={2}>
                     <img className="sponsor-rectangle-layout" src={sponsorsProps[1].imgSource} />
-                    <div className="sponsor-rectangle-layout sponsor-background-rectangle"></div>
                 </Col>
-            </Row>
-
-            <Row className="show-grid sponsor-title-layout">
-                <Col className="sponsor-col">
+                <Col xs={2}>
                     <img className="sponsor-rectangle-layout" src={sponsorsProps[2].imgSource} />
-                    <div className="sponsor-rectangle-layout sponsor-background-rectangle"></div>
                 </Col>
             </Row>
 
             <Row className="show-grid sponsor-title-layout">
-                <Col className="sponsor-col">
+                <Col xs={2} xsOffset={3}>
                     <img className="sponsor-rectangle-layout" src={sponsorsProps[3].imgSource} />
-                    <div className="sponsor-rectangle-layout sponsor-background-rectangle"></div>
                 </Col>
             </Row>
         </Grid>

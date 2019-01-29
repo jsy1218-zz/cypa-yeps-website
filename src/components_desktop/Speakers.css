@@ -3,14 +3,6 @@
   margin-top: 10%;
 }
 
-.carousel-caption {
-  right: auto;
-  left: auto;
-  position: relative;
-  padding-bottom: 5%;
-  padding-top: 10%;
-}
-
 .speakers-title-layout {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -33,17 +25,6 @@
   margin-bottom: 2%;
 }
 
-.speakers-sticker-layout {
-  position: relative;
-  top: -50px;
-  left: -100px;
-  width: 130px;
-  margin: 0 auto;
-  opacity: 0.8;
-  background-color: #ffa719;
-  padding: 1%;
-}
-
 .speakers-sticker-font {
   font-family: SFProDisplay;
   font-style: normal;
@@ -52,4 +33,8 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+.speakers-img-list {
+  overflow: hidden;
 }
