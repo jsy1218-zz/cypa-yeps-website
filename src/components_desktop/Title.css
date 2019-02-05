@@ -28,7 +28,6 @@
 }
 
 .address-font {
-  font-family: SFProDisplay;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -36,7 +35,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: #f0ad4e;
 }
 
 .btn-default {

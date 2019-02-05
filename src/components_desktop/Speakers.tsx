@@ -44,7 +44,7 @@ export const Speakers: React.StatelessComponent<{}> = () => {
             </Row>
             <Row className="show-grid speakers-title-layout">
                 <Col xs={10} xsOffset={1}>
-                    <Button bsStyle="default" className="btn-default" bsSize="large">View All Speakers</Button>
+                    <Button bsStyle="warning" bsSize="large">View All Speakers</Button>
                 </Col>
             </Row>
         </Grid>

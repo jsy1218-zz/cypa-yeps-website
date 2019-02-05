@@ -20,7 +20,7 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
 
             <Row className="show-grid join-us-title-layout">
                 <Col xs={10} xsOffset={1}>
-                    <Button bsStyle="default" className="btn-default" bsSize="large">Register Now</Button>
+                    <Button bsStyle="warning" bsSize="large">Register Now</Button>
                 </Col>
             </Row>
         </Grid>

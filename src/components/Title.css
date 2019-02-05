@@ -1,8 +1,6 @@
 .title-font {
-  width: 210px;
   height: 60px;
-  font-family: SFProDisplay;
-  font-size: 24px;
+  font-size: 32px !important;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -29,7 +27,6 @@
 }
 
 .address-font {
-  font-family: SFProDisplay;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
