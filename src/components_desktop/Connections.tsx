@@ -7,7 +7,7 @@ export const Connections: React.StatelessComponent<{}> = () => {
     return (
         <Grid>
             <Row className="show-grid connections-title-layout-small">
-                <Col xs={11} xsOffset={1}>
+                <Col xs={10} xsOffset={1}>
                     <h3><span className="connections-title-font">— stay connected —</span></h3>
                 </Col>
             </Row>
