@@ -8,7 +8,7 @@ export const Connections: React.StatelessComponent<{}> = () => {
         <Grid>
             <Row className="show-grid connections-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3><span className="connections-title-font">— stay connected —</span></h3>
+                    <h3 className="connections-title-font">About CYPA</h3>
                 </Col>
             </Row>
 

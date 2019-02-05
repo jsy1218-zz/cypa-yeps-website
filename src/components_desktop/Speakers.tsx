@@ -17,7 +17,7 @@ export const Speakers: React.StatelessComponent<{}> = () => {
         <Grid>
             <Row className="show-grid speakers-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3><span className="speakers-title-font">— Speakers —</span></h3>
+                    <h3 className="speakers-title-font">Meet the speakers</h3>
                 </Col>
             </Row>
             <Row className="show-grid speakers-img-list">

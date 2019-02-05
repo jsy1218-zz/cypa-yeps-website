@@ -10,7 +10,7 @@ export const Agenda: React.StatelessComponent<{}> = () => {
         <Grid>
             <Row className="show-grid agenda-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3><span className="agenda-title-font">— Agenda —</span></h3>
+                    <h3 className="agenda-title-font-desktop">View the agenda</h3>
                 </Col>
             </Row>
 

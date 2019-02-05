@@ -15,7 +15,7 @@ export const Sponsors: React.StatelessComponent<{}> = () => {
         <Grid>
             <Row className="show-grid sponsor-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3><span className="sponsor-title-font">— our great sponsors —</span></h3>
+                    <h3 className="sponsor-title-font">Thank you to our sponsors</h3>
                 </Col>
             </Row>
 

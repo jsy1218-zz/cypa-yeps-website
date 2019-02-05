@@ -13,15 +13,16 @@
 }
 
 .keynotes-title-font {
-  font-family: SFProDisplay;
-  font-size: 32px;
-  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
-  color: #4a4a4a;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #4a4a4a;
 }
 
 .keynotes-content {

@@ -9,15 +9,16 @@
 }
 
 .speakers-title-font {
-  font-family: SFProDisplay;
-  font-size: 32px;
-  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
+  opacity: 0.5;
 }
 
 .speakers-title-layout-small {
