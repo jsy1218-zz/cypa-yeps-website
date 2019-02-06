@@ -5,10 +5,10 @@ import './Connections.css';
 
 export const Connections: React.StatelessComponent<{}> = () => {
     return (
-        <Grid>
+        <Grid className="connections-area">
             <Row className="show-grid connections-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3 className="connections-title-font">About CYPA</h3>
+                    <h3 className="connections-title-font-desktop">About CYPA</h3>
                 </Col>
             </Row>
 

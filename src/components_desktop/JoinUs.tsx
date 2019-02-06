@@ -8,7 +8,7 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
         <Grid>
             <Row className="show-grid join-us-title-layout-small">
                 <Col xs={10} xsOffset={1}>
-                    <h3 className="join-us-title-font">Register today!</h3>
+                    <h3 className="join-us-title-font-desktop">Register today!</h3>
                 </Col>
             </Row>
 

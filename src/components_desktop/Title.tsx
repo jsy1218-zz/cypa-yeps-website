@@ -13,8 +13,8 @@ export const Title: React.StatelessComponent<{}> = () => {
             </Row>
 
             <Row className="show-grid margin-row-small">
-                <Col md={4} mdOffset={4} className="address-font">
-                    <span className="address-font">MARCH 1, 2019 | GIX, Bellvue</span>
+                <Col md={4} mdOffset={4} className="address-font-desktop">
+                    <span>MARCH 1, 2019 | GIX, Bellvue</span>
                 </Col>
             </Row>
 
