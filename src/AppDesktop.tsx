@@ -25,13 +25,15 @@ export const AppDesktop: React.StatelessComponent<{}> = () => {
       <div className="Keynotes" id={KEYNOTE_ROUTE}>
         <Keynotes />
       </div>
-      <div className="speakers" id={SPEAKERS_ROUTE}>
+      <div className="speakers-desktop" id={SPEAKERS_ROUTE}>
+        <div className="background-opacity" />
         <Speakers />
       </div>
       <div className="agenda" id={AGENDA_ROUTE}>
         <Agenda />
       </div>
-      <div className="join-us">
+      <div className="join-us-desktop">
+        <div className="background-opacity" />
         <JoinUs />
       </div>
       <div className="sponsors">

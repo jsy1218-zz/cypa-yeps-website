@@ -18,15 +18,15 @@ export const Speaker= ({ imgSource, name, title, company }: Props) => (
             </Col>
         </Row>
 
-        <Row>
+        <Row className="speakers-name">
             <Col>
                 <h3>{name}</h3>
             </Col>
         </Row>
 
-        <Row>
+        <Row className="speakers-title">
             <Col>
-                <h4>{title} | {company}</h4>
+                <p>{title} | {company}</p>
             </Col>
         </Row>
     </Col>

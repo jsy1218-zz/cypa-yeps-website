@@ -39,3 +39,19 @@
 .speakers-img-list {
   overflow: hidden;
 }
+
+.speakers-name {
+  background-color: #434343;
+}
+
+.speakers-name h3 {
+  color: #dddddd;
+}
+
+.speakers-title {
+  background-color: #434343;
+}
+
+.speakers-title p {
+  color: #aaaaaa;
+}

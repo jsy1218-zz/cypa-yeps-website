@@ -11,7 +11,8 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
                     <h3 className="join-us-title-font-desktop">Register today!</h3>
                 </Col>
             </Row>
-
+            <Row>
+            <Col xs={10} xsOffset={1} className="join-us-content-background">
             <Row className="show-grid join-us-title-layout">
                 <Col xs={10} xsOffset={1}>
                     <p className="join-us-title-font-small content">Our commitment is to provide you the ability to be more efficient, accurate, and connected. Don't miss your opportunity to attend Yeps.</p>
@@ -22,6 +23,8 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
                 <Col xs={10} xsOffset={1}>
                     <Button bsStyle="warning" bsSize="large">Register Now</Button>
                 </Col>
+            </Row>
+            </Col>
             </Row>
         </Grid>
     );
