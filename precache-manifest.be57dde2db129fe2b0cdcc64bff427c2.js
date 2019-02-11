@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/css/main.80209773.chunk.css"
   },
   {
-    "revision": "34e7510e3653a95b8946823f955474e8",
-    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
+    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
+    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
   },
   {
     "revision": "fcb8f7725bf1ebf0029c",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
   },
   {
-    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
-    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
+    "revision": "34e7510e3653a95b8946823f955474e8",
+    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
     "revision": "fcb8f7725bf1ebf0029c",
