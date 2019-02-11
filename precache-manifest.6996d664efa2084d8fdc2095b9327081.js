@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8427b2ba5d024ceb41c03bde9f928f59",
-    "url": "/cypa-yeps-website/static/media/valley.8427b2ba.png"
+    "revision": "947c9a0f3961138a53f30d53b54610e3",
+    "url": "/cypa-yeps-website/static/media/washington.947c9a0f.png"
   },
   {
-    "revision": "80ac6a43d3d1ea066165",
-    "url": "/cypa-yeps-website/static/css/main.0bbb142d.chunk.css"
+    "revision": "2c2feac51cc1f20d8d7c",
+    "url": "/cypa-yeps-website/static/css/main.80209773.chunk.css"
   },
   {
-    "revision": "c083a55f56c239376ad7314477f59f2f",
-    "url": "/cypa-yeps-website/static/media/wave.c083a55f.svg"
+    "revision": "34e7510e3653a95b8946823f955474e8",
+    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
     "revision": "fcb8f7725bf1ebf0029c",
@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "80ac6a43d3d1ea066165",
-    "url": "/cypa-yeps-website/static/js/main.80ac6a43.chunk.js"
+    "revision": "8427b2ba5d024ceb41c03bde9f928f59",
+    "url": "/cypa-yeps-website/static/media/valley.8427b2ba.png"
   },
   {
     "revision": "763dfde2d1cfb25e341f5e49effb0932",
     "url": "/cypa-yeps-website/static/media/seattle.763dfde2.png"
   },
   {
-    "revision": "947c9a0f3961138a53f30d53b54610e3",
-    "url": "/cypa-yeps-website/static/media/washington.947c9a0f.png"
+    "revision": "2c2feac51cc1f20d8d7c",
+    "url": "/cypa-yeps-website/static/js/main.2c2feac5.chunk.js"
   },
   {
     "revision": "f8e433bd5e9b31a2fc298ecc000f71b6",
@@ -76,11 +76,23 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/discussion.37c86acf.png"
   },
   {
+    "revision": "c083a55f56c239376ad7314477f59f2f",
+    "url": "/cypa-yeps-website/static/media/wave.c083a55f.svg"
+  },
+  {
+    "revision": "87c0c2913ffd8454c9f309a29f115efc",
+    "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
+  },
+  {
+    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
+    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
+  },
+  {
     "revision": "fcb8f7725bf1ebf0029c",
     "url": "/cypa-yeps-website/static/css/1.97a481d4.chunk.css"
   },
   {
-    "revision": "981badaaa8c83ae6222691764f017dca",
+    "revision": "e7d3f4e3d7e6a66c39bfd66ada08ecec",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
