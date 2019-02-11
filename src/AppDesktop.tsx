@@ -15,8 +15,9 @@ import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE } from './constants/AppRout
 export const AppDesktop: React.StatelessComponent<{}> = () => {
   return (
     <div className="App">
-      <div className="App-intro">
+      <div className="App-intro-desktop">
         <div>
+          <div className="background-opacity" />
           <NavBar />
           <Title />
         </div>

@@ -18,7 +18,7 @@ export const Title: React.StatelessComponent<{}> = () => {
                 </Col>
             </Row>
 
-            <Row className="show-grid margin-row-small margin-bottom">
+            <Row className="show-grid margin-row-small margin-bottom-desktop">
                 <Col md={4} mdOffset={4} className="location-font">
                     <Button bsStyle="warning" bsSize="large">Register Now</Button>
                 </Col>
