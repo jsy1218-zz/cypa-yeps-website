@@ -1,0 +1,57 @@
+.speakers-img {
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.speakers-title-layout {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.speakers-title-font-desktop {
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.speakers-title-layout-small {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.speakers-sticker-font {
+  font-family: SFProDisplay;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.speakers-img-list {
+  overflow: hidden;
+}
+
+.speakers-name {
+  background-color: #434343;
+}
+
+.speakers-name h3 {
+  color: #dddddd;
+}
+
+.speakers-title {
+  background-color: #434343;
+}
+
+.speakers-title p {
+  color: #aaaaaa;
+}
