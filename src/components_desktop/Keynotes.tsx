@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
-import './Keynotes.css';
+import '../components/Keynotes.css';
 import { KeynotesSectionDesktop } from 'src/constants/KeynotesSectionDesktop';
 
 export const KeynotesDesktop: React.StatelessComponent<{}> = () => {
