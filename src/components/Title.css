@@ -42,3 +42,22 @@
   background-color: transparent;
   border-color: #ccc;
 }
+
+.margin-bottom-desktop {
+  margin-bottom: 10%;
+}
+
+.margin-row-small {
+  margin-top: 5%;
+}
+
+.address-font-desktop {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f0ad4e;
+}

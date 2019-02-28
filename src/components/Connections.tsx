@@ -2,15 +2,27 @@ import * as React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 import './Connections.css';
+import { isBrowser, BrowserView, MobileView } from 'react-device-detect';
+
+var ConnectionClass = isBrowser ? "connections-area" : "";
 
 export const Connections: React.StatelessComponent<{}> = () => {
     return (
-        <Grid>
-            <Row className="show-grid connections-title-layout-small">
-                <Col xs={11} xsOffset={1}>
-                    <h3><span className="connections-title-font">— stay connected —</span></h3>
-                </Col>
-            </Row>
+        <Grid className={ConnectionClass}>
+            <BrowserView>
+                <Row className="show-grid connections-title-layout-small">
+                    <Col xs={10} xsOffset={1}>
+                        <h3 className="connections-title-font-desktop">About CYPA</h3>
+                    </Col>
+                </Row>
+            </BrowserView>
+            <MobileView>
+                <Row className="show-grid connections-title-layout-small">
+                    <Col xs={11} xsOffset={1}>
+                        <h3><span className="connections-title-font">— stay connected —</span></h3>
+                    </Col>
+                </Row>
+            </MobileView>
 
             <Row className="show-grid connections-title-layout">
                 <Col xs={10} xsOffset={1}>

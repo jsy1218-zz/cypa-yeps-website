@@ -53,3 +53,21 @@
   margin-left: 3%;
   margin-right: 3%;
 }
+
+.connections-title-font-desktop {
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.connections-area {
+  background-color: #fda731;
+  width: 100%;
+}

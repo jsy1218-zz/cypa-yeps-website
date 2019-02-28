@@ -82,3 +82,80 @@
   -webkit-box-shadow: 0px 0px !important;
   box-shadow: 0px 0px !important;
 }
+
+.agenda-title-font-desktop {
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #4a4a4a;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  font-size: 16px !important;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline-element {
+    margin: 0.5em 0;
+  }
+
+  .vertical-timeline-element-content {
+    float: none !important;
+    left: 53% !important;
+  }
+
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    font-size: 24px !important;
+    top: 14px !important;
+    left: auto !important;
+    right: 124% !important;
+    padding: 0px;
+    text-align: right;
+  }
+
+  .vertical-timeline--two-columns .vertical-timeline-element-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #fff;
+  }
+
+  .vertical-timeline--two-columns .vertical-timeline-element-content {
+    padding: 1em;
+  }
+
+  .agenda-meme {
+    left: 5% !important;
+    position: absolute;
+    margin-top: 0.5em;
+  }
+
+  .agenda-meme:first-of-type {
+    margin-top: 1em;
+  }
+
+  .vertical-timeline-right-area-bg {
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 0px;
+    margin-left: 2px;
+    background-color: #bbbbbb;
+  }
+}
+
+.agenda-meme::before {
+  border: 0px;
+}
+
+.vertical-timeline-element-title {
+  font-size: 24px !important;
+  display: block;
+}
