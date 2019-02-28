@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "31ff7cd8d8b414da8bbf70e4e8233946",
-    "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
-  },
-  {
     "revision": "87c0c2913ffd8454c9f309a29f115efc",
     "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
+  },
+  {
+    "revision": "31ff7cd8d8b414da8bbf70e4e8233946",
+    "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
   },
   {
     "revision": "33691afc3baa7881c731",
