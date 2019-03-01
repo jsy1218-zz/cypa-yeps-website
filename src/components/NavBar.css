@@ -36,3 +36,11 @@
   margin: 5px 0px 0px 15px;
   padding: 0px;
 }
+
+.navbar-font-desktop {
+  font-size: 16px;
+}
+
+.navbar-font-desktop .btn {
+  font-size: 16px;
+}
