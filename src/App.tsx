@@ -12,25 +12,37 @@ import Sponsors from './components/Sponsors';
 import Connections from './components/Connections';
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE } from './constants/AppRouterConstants';
 
+import {
+  isBrowser, BrowserView
+} from "react-device-detect";
+
+var AppIntroClass = isBrowser ? "App-intro-desktop" : "App-intro";
+var AppIntroTitleClass = isBrowser ? "" : "App-intro-title";
+var SpeakerClass = isBrowser ? "speakers-desktop" : "speakers";
+var JointusClass = isBrowser ? "join-us-desktop" : "join-us";
+
 export const App: React.StatelessComponent<{}> = () => {
   return (
     <div className="App">
-      <div className="App-intro">
-        <div className="App-intro-title">
+      <div className={AppIntroClass}>
+        <div className={AppIntroTitleClass}>
+          <BrowserView><div className="background-opacity" /></BrowserView>
           <NavBar />
           <Title />
         </div>
       </div>
-      <div className="keynotes" id={KEYNOTE_ROUTE}>
+      <div className="Keynotes" id={KEYNOTE_ROUTE}>
         <Keynotes />
       </div>
-      <div className="speakers" id={SPEAKERS_ROUTE}>
+      <div className={SpeakerClass} id={SPEAKERS_ROUTE}>
+        <BrowserView><div className="background-opacity" /></BrowserView>
         <Speakers />
       </div>
       <div className="agenda" id={AGENDA_ROUTE}>
         <Agenda />
       </div>
-      <div className="join-us">
+      <div className={JointusClass}>
+        <BrowserView><div className="background-opacity" /></BrowserView>
         <JoinUs />
       </div>
       <div className="sponsors">
