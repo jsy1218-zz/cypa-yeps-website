@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
   },
   {
-    "revision": "33691afc3baa7881c731",
-    "url": "/cypa-yeps-website/static/css/main.3e6f4f85.chunk.css"
+    "revision": "7babb619d55a9b1c75ea",
+    "url": "/cypa-yeps-website/static/css/main.32ca644a.chunk.css"
   },
   {
     "revision": "e69585c8f46f928592b09fe40011762f",
     "url": "/cypa-yeps-website/static/media/instagram.e69585c8.png"
   },
   {
-    "revision": "675178f05da9da2fc495",
-    "url": "/cypa-yeps-website/static/js/1.675178f0.chunk.js"
+    "revision": "e5a0f962bcd1e0d8cbd2",
+    "url": "/cypa-yeps-website/static/js/1.e5a0f962.chunk.js"
   },
   {
     "revision": "643305c4de5ff317a8cf",
@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "87c0c2913ffd8454c9f309a29f115efc",
-    "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
-  },
-  {
     "revision": "31ff7cd8d8b414da8bbf70e4e8233946",
     "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
   },
   {
-    "revision": "33691afc3baa7881c731",
-    "url": "/cypa-yeps-website/static/js/main.33691afc.chunk.js"
+    "revision": "87c0c2913ffd8454c9f309a29f115efc",
+    "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
+  },
+  {
+    "revision": "7babb619d55a9b1c75ea",
+    "url": "/cypa-yeps-website/static/js/main.7babb619.chunk.js"
   },
   {
     "revision": "34e7510e3653a95b8946823f955474e8",
@@ -88,11 +88,11 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/linkedin.75790097.png"
   },
   {
-    "revision": "675178f05da9da2fc495",
-    "url": "/cypa-yeps-website/static/css/1.4034b308.chunk.css"
+    "revision": "e5a0f962bcd1e0d8cbd2",
+    "url": "/cypa-yeps-website/static/css/1.843315c5.chunk.css"
   },
   {
-    "revision": "2cef963d5b2d134a398e57380445d024",
+    "revision": "855fcefa26bac806c9c10152aae36403",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
