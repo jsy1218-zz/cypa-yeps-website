@@ -13,18 +13,18 @@ export const Title: React.StatelessComponent<{}> = () => {
         return (
             <Grid>
                 <Row className="show-grid margin-row">
-                    <Col md={10} mdOffset={1}>
-                        <span className="title-font">Young Entrprenuer and Professional Summit &middot; Seattle</span>
+                    <Col lg={12}>
+                        <h1 className="title-font-desktop">Young Entrprenuer and Professional Summit &middot; Seattle</h1>
                     </Col>
                 </Row>
     
-                <Row className="show-grid margin-row-small">
-                    <Col md={4} mdOffset={4} className="address-font-desktop">
-                        <span>MARCH 1, 2019 | GIX, Bellvue</span>
+                <Row className="show-grid">
+                    <Col lg={12}>
+                        <h2 className="address-font-desktop">MARCH 1, 2019 | GIX, Bellvue</h2>
                     </Col>
                 </Row>
     
-                <Row className="show-grid margin-row-small margin-bottom-desktop">
+                <Row className="show-grid margin-bottom-desktop">
                     <Col md={4} mdOffset={4}>
                         <Button bsStyle="warning" bsSize="large">Register Now</Button>
                     </Col>
