@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
   },
   {
-    "revision": "5777cd33dc2672654a77",
-    "url": "/cypa-yeps-website/static/css/main.176cd291.chunk.css"
+    "revision": "219b81f8e126932a2aeb",
+    "url": "/cypa-yeps-website/static/css/main.e368b523.chunk.css"
   },
   {
     "revision": "e69585c8f46f928592b09fe40011762f",
@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/discussion.37c86acf.png"
   },
   {
-    "revision": "5777cd33dc2672654a77",
-    "url": "/cypa-yeps-website/static/js/main.5777cd33.chunk.js"
-  },
-  {
-    "revision": "34e7510e3653a95b8946823f955474e8",
-    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
+    "revision": "219b81f8e126932a2aeb",
+    "url": "/cypa-yeps-website/static/js/main.219b81f8.chunk.js"
   },
   {
     "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
     "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
+  },
+  {
+    "revision": "34e7510e3653a95b8946823f955474e8",
+    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
     "revision": "c083a55f56c239376ad7314477f59f2f",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/css/1.843315c5.chunk.css"
   },
   {
-    "revision": "60dcfc7807f474a7ab9021b358d8ba95",
+    "revision": "594b4ed2592e459756ed4f33284ce01d",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
