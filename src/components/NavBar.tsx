@@ -6,9 +6,12 @@ import { NavItem, Nav, Navbar } from 'react-bootstrap';
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, JOIN_US_ROUTE } from '../constants/AppRouterConstants';
 
 import './NavBar.css';
+import { isBrowser } from 'react-device-detect';
 
 interface Props { } 
 interface State { isExpanded: boolean; }
+
+var NavBarClasses = isBrowser ? "navbar-default navbar-font-desktop" : "navbar-default";
 
 export default class NavBar extends React.Component<Props, State> {
     constructor(props: Props) {
@@ -26,13 +29,13 @@ export default class NavBar extends React.Component<Props, State> {
         let languageButton = this.state.isExpanded ? 'collapsed-menu' : '';
 
         return (
-            <div className={'navbar-default'}>
+            <div className={NavBarClasses}>
                 <Navbar collapseOnSelect fixedTop>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <img className={'logo-wrapper'} src={logo} alt="logo"/>
                         </Navbar.Brand>
-                        <Navbar.Toggle onClick={this.expandCollapse}/>
+                        <Navbar.Toggle className={'toggle-style'} onClick={this.expandCollapse}/>
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight className={collapsedMenu}>

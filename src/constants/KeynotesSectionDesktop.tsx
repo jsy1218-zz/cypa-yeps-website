@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 import '../components/Keynotes.css';
 
@@ -9,24 +9,26 @@ export interface Props {
     paragraph: string;
 }
 
-export const KeynotesSection = ({ imgSource, title, paragraph }: Props) => (
-    <Grid>
-        <Row className="show-grid keynotes-title-layout">
-            <Col xs={10} xsOffset={1}>
+export const KeynotesSectionDesktop = ({ imgSource, title, paragraph }: Props) => (
+    <Col md={4}>
+        <Row className="show-grid keynotes-title-layout keynotes-icon">
+            <Col>
                 <img src={imgSource} />
             </Col>
         </Row>
 
+        <Row className="keynotes-description-block">
         <Row className="show-grid keynotes-title-layout">
-            <Col xs={10} xsOffset={1}>
+            <Col>
                 <h4>{title}</h4>
             </Col>
         </Row>
 
-        <Row className="show-grid keynotes-title-layout keynotes-content">
-            <Col xs={10} xsOffset={1}>
+        <Row className="show-grid keynotes-description">
+            <Col>
                 <p>{paragraph}</p>
             </Col>
         </Row>
-    </Grid>
+        </Row>
+    </Col>
 );

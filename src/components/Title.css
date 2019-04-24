@@ -1,8 +1,6 @@
 .title-font {
-  width: 210px;
   height: 60px;
-  font-family: SFProDisplay;
-  font-size: 24px;
+  font-size: 32px !important;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -29,7 +27,6 @@
 }
 
 .address-font {
-  font-family: SFProDisplay;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -44,4 +41,21 @@
   color: white;
   background-color: transparent;
   border-color: #ccc;
+}
+
+.margin-bottom-desktop {
+  margin-bottom: 18%;
+}
+
+.title-font-desktop {
+  height: 60px;
+  font-size: 39px !important;
+  text-align: center;
+  color: #ffffff;
+}
+
+.address-font-desktop {
+  font-size: 24px;
+  text-align: center;
+  color: #f0ad4e;
 }

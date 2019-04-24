@@ -27,7 +27,7 @@
 .App-intro-title {
   background-image: url('./images/wave.png');
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100%;
 }
 
 .wave {
@@ -66,4 +66,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-intro-desktop {
+  position: relative;
+  background-image: url('./images/desktop1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.background-opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-color: #4c4f5c;
+  opacity: 0.8;
+}
+
+.speakers-desktop {
+  position: relative;
+  background-image: url('./images/desktop2.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93); */
+}
+
+.join-us-desktop {
+  position: relative;
+  background-image: url('./images/desktop3.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 10%;
 }

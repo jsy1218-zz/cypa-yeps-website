@@ -4,11 +4,38 @@ import { Button, ButtonToolbar, Grid, Row, Col } from 'react-bootstrap';
 import './Title.css';
 import { ColoredLine } from '../constants/ColoredLine';
 
+import {
+    isBrowser,
+} from "react-device-detect";
+
 export const Title: React.StatelessComponent<{}> = () => {
+    if (isBrowser) {
+        return (
+            <Grid>
+                <Row className="show-grid margin-row">
+                    <Col lg={12}>
+                        <h1 className="title-font-desktop">Young Entrprenuer and Professional Summit &middot; Seattle</h1>
+                    </Col>
+                </Row>
+    
+                <Row className="show-grid">
+                    <Col lg={12}>
+                        <h2 className="address-font-desktop">MARCH 1, 2019 | GIX, Bellvue</h2>
+                    </Col>
+                </Row>
+    
+                <Row className="show-grid margin-bottom-desktop">
+                    <Col md={4} mdOffset={4}>
+                        <Button bsStyle="warning" bsSize="large">Register Now</Button>
+                    </Col>
+                </Row>
+            </Grid>
+        );
+    }
     return (
         <Grid>
             <Row className="show-grid margin-row">
-                <Col xs={7} xsOffset={3}>
+                <Col xs={10} xsOffset={1} md={7} mdOffset={3}>
                     <span className="title-font">Young Entrprenuer &amp; Professional Summit</span>
                 </Col>
             </Row>
