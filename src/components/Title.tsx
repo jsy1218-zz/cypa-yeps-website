@@ -13,65 +13,74 @@ export const Title: React.StatelessComponent<{}> = () => {
         return (
             <Grid>
                 <Row className="show-grid margin-row">
-                    <Col lg={12}>
-                        <h1 className="title-font-desktop">Young Entrprenuer and Professional Summit &middot; Seattle</h1>
+                    <Col md={12} mdOffset={2} className="title-style">
+                        <span className="title-font">YOUNG ENTREPRENEUR AND</span>
+                        <br />
+                        <span className="title-font">PROFESSIONAL SUMMIT &middot; SEATTLE</span>
+                    </Col>
+                </Row>
+                <Row className="show-grid margin-row-small margin-left">
+                    <Col md={1} mdOffset={1} className="line-style">
+                        <ColoredLine color="#ffffff" border="solid 1.2px #ffffff" width="0.01px" height="100px" /> 
+                    </Col>
+                    <Col md={4} mdOffset={0} className="address-font-desktop">
+                        <span>
+                            Saturday May 18th, 2019 | 1:30pm - 7:30pm PST
+                        </span>
+                         <span className="address-font-desktop2"></span>
+                        <br />
+                        <span> 
+                            Courtyard by Marriott Seattle Bellevue/Downtown
+                            <br />
+                            Address: 11010 NE 8th, Bellevue, WA 98004
+                        </span>
                     </Col>
                 </Row>
     
-                <Row className="show-grid">
-                    <Col lg={12}>
-                        <h2 className="address-font-desktop">MARCH 1, 2019 | GIX, Bellvue</h2>
-                    </Col>
-                </Row>
-    
-                <Row className="show-grid margin-bottom-desktop">
-                    <Col md={4} mdOffset={4}>
-                        <Button bsStyle="warning" bsSize="large">Register Now</Button>
+                <Row className="show-grid margin-row-small margin-bottom-desktop">
+                    <Col md={10} mdOffset={2}>
+                        <Button className="registerNow">Register Now</Button>
                     </Col>
                 </Row>
             </Grid>
         );
     }
     return (
-        <Grid>
-            <Row className="show-grid margin-row">
-                <Col xs={10} xsOffset={1} md={7} mdOffset={3}>
-                    <span className="title-font">Young Entrprenuer &amp; Professional Summit</span>
-                </Col>
-            </Row>
-
-            <Row className="show-grid">
-                <Col xs={7} xsOffset={3}>
-                    <ColoredLine color="#ffffff" border="solid 1.2px #ffffff" width="70%" height="70%" />
-                </Col>
-            </Row>
-
-            <Row className="show-grid">
-                <Col xs={6} xsOffset={3} className="location-font">
-                    <span className="title-font">Seattle</span>
-                </Col>
-            </Row>
-
-            <Row className="show-grid margin-row">
-                <Col xs={6} xsOffset={3} className="address-font">
-                    <span className="address-font">MARCH 1, 2019 | GIX, Bellvue</span>
-                </Col>
-            </Row>
-
-            <Row className="show-grid margin-row">
-                <Col xs={6} xsOffset={3} className="location-font">
-                <ButtonToolbar>
-                    <Button bsStyle="default" className="btn-default" bsSize="large">Agenda</Button>
-                </ButtonToolbar>
-                </Col>
-            </Row>
-
-            <Row className="show-grid margin-row-small margin-bottom">
-                <Col xs={6} xsOffset={3} className="location-font">
-                <ButtonToolbar>
-                    <Button bsStyle="primary" bsSize="large">Register Now</Button>
-                </ButtonToolbar>
-                </Col>
+        <Grid className="show-grid margin-row">
+            <Row className="show-grid margin-row-text">
+                <Row className="show-grid margin-row-title">
+                    <Col xs={12} xsOffset={0} md={7} mdOffset={3}>
+                        <span className="title-font-phone">YOUNG ENTREPRENEUR AND PROFESSIONAL SUMMIT &middot; SEATTLE</span>
+                    </Col>
+                </Row>
+                <Row className="show-grid margin-row-address">   
+                    <Col>
+                        <Col xs={1} xsOffset={1}>
+                            <ColoredLine color="#ffffff" border="solid 1.2px #ffffff" width="0.01px" height="61.5px" /> 
+                        </Col>
+                        <Col span={4} xsPull={0}>
+                            <span className="location-font"> 
+                            Saturday May 18th, 2019 | 1:30pm - 7:30pm PST 
+                            </span>
+                            <span className="location-text-style"></span>
+                            <br />
+                            <span className="location-font"> 
+                                Courtyard by Marriott Seattle Bellevue/Downtown
+                            </span>
+                            <br />
+                            <span className="location-font">
+                                Address: 11010 NE 8th, Bellevue, WA 98004
+                            </span>
+                        </Col>
+                    </Col>
+                </Row>
+                <Row className="show-grid margin-row-small margin-bottom">
+                    <Col xs={18} xsOffset={2} className="registerNowphone">
+                    <ButtonToolbar>
+                        <Button className="registerNowphone1">Register Now</Button>
+                    </ButtonToolbar>
+                    </Col>
+                </Row>
             </Row>
         </Grid>
     );

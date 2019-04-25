@@ -6,12 +6,12 @@ import { NavItem, Nav, Navbar } from 'react-bootstrap';
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, JOIN_US_ROUTE } from '../constants/AppRouterConstants';
 
 import './NavBar.css';
-import { isBrowser } from 'react-device-detect';
+import {
+    isBrowser
+  } from "react-device-detect";
 
 interface Props { } 
 interface State { isExpanded: boolean; }
-
-var NavBarClasses = isBrowser ? "navbar-default navbar-font-desktop" : "navbar-default";
 
 export default class NavBar extends React.Component<Props, State> {
     constructor(props: Props) {
@@ -24,24 +24,32 @@ export default class NavBar extends React.Component<Props, State> {
     }
     
     render() {
-        let logo = require('../images/logo.png');
-        let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : '';
-        let languageButton = this.state.isExpanded ? 'collapsed-menu' : '';
+        let logo = require('../images/yeps-logo@3x.png');
+        let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : 'menu';
+    {/*let languageButton = this.state.isExpanded ? 'collapsed-menu' : '';*/}
+        var  BarStyle = isBrowser ? "barstyle-desktop" : "barstyle-phone"
+        var  LanguageButton = isBrowser ? "language-button" : "language-button-phone";
+        var  LogoWrapper = isBrowser ? "logo-wrapper" : "logo-wrapper-phone";
+        var  LogoFont = isBrowser ? "logo-font" : "logo-font-phone";
 
         return (
-            <div className={NavBarClasses}>
-                <Navbar collapseOnSelect fixedTop>
+            <div className={'navbar-default'}>
+                <Navbar collapseOnSelect fixedTop className={BarStyle}>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <img className={'logo-wrapper'} src={logo} alt="logo"/>
+                            <img className={LogoWrapper} src={logo} alt="logo"/>
                         </Navbar.Brand>
                         <Navbar.Toggle className={'toggle-style'} onClick={this.expandCollapse}/>
+                        <Navbar.Text>
+                            <span className={LogoFont}>YEPS</span>
+                        </Navbar.Text>
+                            <Button className={LanguageButton} type="submit">LANGUAGE</Button>
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight className={collapsedMenu}>
-                            <Navbar.Form pullLeft className={languageButton}>
+                            {/*<Navbar.Form pullLeft className={languageButton}>
                                 <Button className={'language-button'} type="submit">Language</Button>
-                            </Navbar.Form>
+                            </Navbar.Form>*/}
                             <NavItem eventKey={1} href={'#' + KEYNOTE_ROUTE}>
                                 Keynote
                             </NavItem>
@@ -57,7 +65,7 @@ export default class NavBar extends React.Component<Props, State> {
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-            </div>
+            </div> 
         )
     }
 }

@@ -1,29 +1,92 @@
+.title-style{
+  text-align: left;
+}
 .title-font {
-  height: 60px;
-  font-size: 32px !important;
+  width: 253px;
+  height: 38.4px;
+  font-family: ArialUnicodeMS;
+  font-size: 40px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: center;
+  color: #ffffff;
+  margin-left: 40%;
+}
+
+.title-font-phone {
+  width: 253px;
+  height: 38.4px;
+  font-family: ArialUnicodeMS;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
   color: #ffffff;
 }
-
 .location-font {
-  text-align: right;
+  text-align: left;  
+  width: 253px;
+  height: 102.8px;
+  font-family: SFProDisplay;
+  font-size:10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.location-text-style{
+  line-height: 3.33;
 }
 
-.margin-row {
-  margin-top: 30%;
+.margin-row{
+  margin-top: 100px;
 }
+.margin-row-text{
+  margin-bottom:50px;
+}
+.margin-row-title{
+  margin-top: 60%;
+  text-align: left;
+  margin-left: 10%;
+}
+.margin-row-address{
+  margin-top:5%;
+  text-align: left;
+  margin-left: 4px;
+}
+
 
 .margin-bottom {
-  margin-bottom: 40%;
+  margin-bottom: 10%;
 }
 
 .margin-row-small {
   margin-top: 5%;
+}
+.registerNowphone1{
+  width: 122px;
+  height: 32px;
+  font-family: SFProText;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background: #ffffff;
+}
+.registerNowphone{
+  justify-items: center;
 }
 
 .address-font {
@@ -37,25 +100,51 @@
   color: #ffffff;
 }
 
-.btn-default {
-  color: white;
-  background-color: transparent;
-  border-color: #ccc;
-}
-
 .margin-bottom-desktop {
-  margin-bottom: 18%;
+  margin-bottom: 10%;
+  margin-left: 130px;
 }
 
-.title-font-desktop {
-  height: 60px;
-  font-size: 39px !important;
-  text-align: center;
+.margin-row-small {
+  margin-top: 5%;
+}
+.margin-left{
+  margin-left: 585px;
+}
+.line-style{
+ margin-top: 15px;
+}
+.address-font-desktop {
+  width: 400px;
+  height: 102.8px;
+  font-family: SFProDisplay;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
   color: #ffffff;
 }
 
-.address-font-desktop {
-  font-size: 24px;
+.address-font-desktop2{
+  line-height: 6.66;
+}
+
+.registerNow{
+  width: 150px;
+  height: 40px;
+  font-family: SFProText;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
-  color: #f0ad4e;
+  justify-content: center;
+  align-items: center;
+  color:#4b5c78;
+  background: #ffffff;
 }
