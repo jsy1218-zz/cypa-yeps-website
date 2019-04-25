@@ -5,24 +5,56 @@
 .collapsed-menu {
   margin: 0px;
 }
-
+.menu{
+  margin-top:30px;
+  font-size: 25px;
+  text-align: right;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 850px;
+}
 /* this is to override .navbar-default from the bootstrap css file */
 .navbar-default {
-  background-color: transparent;
+  background: transparent;
   border-color: transparent;
   margin-left: 15px;
   margin-right: 15px;
   height: 70px;
 }
+.barstyle-desktop{
+  background:transparent;
+  position: absolute;
+}
+.barstyle-phone{
+  background: #000000;
+  height: 65px;
+}
 
-.language-button {
-  color: #333 !important;
+.language-button{
+  display: none;
+}
+.language-button-phone {
+  margin-top:20px;
+  color: rgb(253, 249, 249) !important;
   background-color: transparent;
-  border-color: #333 !important;
+  border-color: rgb(252, 249, 249) !important;
+  border-radius: 4px;
+  width: 80px;
+  height: 26px;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 50px;
 }
 
 .toggle-style {
   border-color: transparent !important;
+  margin-top:24px;
 }
 
 .icon-bar {
@@ -32,15 +64,49 @@
 }
 
 .logo-wrapper {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 50px;
+  margin-top: 12px;
+}
+.logo-wrapper-phone {
   height: 70px;
   margin: 5px 0px 0px 15px;
   padding: 0px;
+  width: 28px;
+  height: 28px;
+  margin-top: 32px;
+  margin-left: 32px;
+  object-fit: contain;
 }
-
-.navbar-font-desktop {
-  font-size: 16px;
+.logo-font{
+  position: absolute; 
+  left: 120px;
+  width: 67px;
+  height: 24px;
+  margin-top: 12px;
+  font-family: Arial;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }
-
-.navbar-font-desktop .btn {
-  font-size: 16px;
+.logo-font-phone{
+  width: 67px;
+  height: 24px;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  float: left;
+  margin-top: 20px;
+  margin-left: 7px;
 }
