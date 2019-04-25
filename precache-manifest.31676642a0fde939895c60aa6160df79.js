@@ -1,27 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "87c0c2913ffd8454c9f309a29f115efc",
-    "url": "/cypa-yeps-website/static/media/desktop1.87c0c291.jpeg"
+    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
+    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
   },
   {
-    "revision": "219b81f8e126932a2aeb",
-    "url": "/cypa-yeps-website/static/css/main.e368b523.chunk.css"
+    "revision": "9d662e57e35d5a7c7bfb",
+    "url": "/cypa-yeps-website/static/css/main.afd6c729.chunk.css"
   },
   {
     "revision": "e69585c8f46f928592b09fe40011762f",
     "url": "/cypa-yeps-website/static/media/instagram.e69585c8.png"
   },
   {
-    "revision": "e5a0f962bcd1e0d8cbd2",
-    "url": "/cypa-yeps-website/static/js/1.e5a0f962.chunk.js"
+    "revision": "fcd5379deef26fcc10a9",
+    "url": "/cypa-yeps-website/static/js/1.fcd5379d.chunk.js"
   },
   {
     "revision": "643305c4de5ff317a8cf",
     "url": "/cypa-yeps-website/static/js/runtime~main.643305c4.js"
-  },
-  {
-    "revision": "9a996271f7a13fc201d08630222af6f9",
-    "url": "/cypa-yeps-website/static/media/logo.9a996271.png"
   },
   {
     "revision": "a94fd353ee345c4ca53ffe0a9764ddc0",
@@ -40,28 +36,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Steve Stubbs 3.0ec7780e.png"
   },
   {
-    "revision": "31ff7cd8d8b414da8bbf70e4e8233946",
-    "url": "/cypa-yeps-website/static/media/wave.31ff7cd8.png"
-  },
-  {
-    "revision": "37c86acf5a64428fece18ad97d960791",
-    "url": "/cypa-yeps-website/static/media/discussion.37c86acf.png"
-  },
-  {
-    "revision": "219b81f8e126932a2aeb",
-    "url": "/cypa-yeps-website/static/js/main.219b81f8.chunk.js"
-  },
-  {
-    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
-    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
-  },
-  {
     "revision": "34e7510e3653a95b8946823f955474e8",
     "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
-    "revision": "c083a55f56c239376ad7314477f59f2f",
-    "url": "/cypa-yeps-website/static/media/wave.c083a55f.svg"
+    "revision": "9d662e57e35d5a7c7bfb",
+    "url": "/cypa-yeps-website/static/js/main.9d662e57.chunk.js"
+  },
+  {
+    "revision": "cbae30b2bb9ae6b868afe1e7622236c3",
+    "url": "/cypa-yeps-website/static/media/phonedesktop3x.cbae30b2.png"
   },
   {
     "revision": "8427b2ba5d024ceb41c03bde9f928f59",
@@ -88,11 +72,11 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/linkedin.75790097.png"
   },
   {
-    "revision": "e5a0f962bcd1e0d8cbd2",
-    "url": "/cypa-yeps-website/static/css/1.843315c5.chunk.css"
+    "revision": "fcd5379deef26fcc10a9",
+    "url": "/cypa-yeps-website/static/css/1.3b2bdc9a.chunk.css"
   },
   {
-    "revision": "594b4ed2592e459756ed4f33284ce01d",
+    "revision": "8a7fb303cffc6ce6f91c385ba32b56f7",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
