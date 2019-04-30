@@ -1,6 +1,8 @@
+
 .speakers-img {
   margin: 0 auto;
   margin-top: 10%;
+  position: relative;
 }
 
 .carousel-caption {
@@ -10,7 +12,9 @@
   padding-bottom: 5%;
   padding-top: 10%;
 }
-
+.carousel-control{
+  opacity: 0;
+}
 .speakers-title-layout {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -32,7 +36,6 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
 .speakers-sticker-layout {
   position: relative;
   top: -50px;
@@ -73,6 +76,7 @@
 
 .speakers-name {
   background-color: #434343;
+  margin-right: -23px;
 }
 
 .speakers-name h3 {
@@ -81,6 +85,7 @@
 
 .speakers-title {
   background-color: #434343;
+  margin-right: -23px;
 }
 
 .speakers-title p {

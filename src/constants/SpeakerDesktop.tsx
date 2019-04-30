@@ -26,7 +26,7 @@ export const Speaker= ({ imgSource, name, title, company }: Props) => (
 
         <Row className="speakers-title">
             <Col>
-                <p>{title} | {company}</p>
+                <p>{title}  {company}</p>
             </Col>
         </Row>
     </Col>

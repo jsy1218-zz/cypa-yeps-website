@@ -9,6 +9,6 @@ export interface Props {
 
 export const SpeakersSticker = ({ title, company }: Props) => (
     <div className="speakers-sticker-layout">
-        <span className="speakers-sticker-font">{title} | {company}</span>
+        <span className="speakers-sticker-font">{title}  {company}</span>
     </div>
 );
