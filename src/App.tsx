@@ -5,12 +5,15 @@ import Title from './components/Title';
 import Keynotes from './components/Keynotes';
 import Speakers from './components/Speakers';
 import Agenda from './components/Agenda';
+import Agenda1 from './components/Agenda1';
+import Agenda2 from './components/Agenda2';
+
 
 import './App.css';
 import JoinUs from './components/JoinUs';
 import Sponsors from './components/Sponsors';
 import Connections from './components/Connections';
-import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE } from './constants/AppRouterConstants';
+import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, AGENDA1_ROUTE, AGENDA2_ROUTE} from './constants/AppRouterConstants';
 
 import {
   isBrowser, BrowserView
@@ -46,9 +49,17 @@ var AppIntroBgOpacity = isBrowser ? "" : "background-opacity-phone";
         <BrowserView><div className="background-opacity" /></BrowserView>
         <Speakers />
       </div>
+
       <div className="agenda" id={AGENDA_ROUTE}>
         <Agenda />
       </div>
+      <div id={AGENDA1_ROUTE}>
+        <Agenda1 />
+      </div>
+      <div id={AGENDA2_ROUTE}>
+        <Agenda2 />
+      </div>
+
       <div className={JointusClass}>
         <BrowserView><div className="background-opacity" /></BrowserView>
         <JoinUs />
