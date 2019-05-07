@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
-    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
+    "revision": "5155ba352e865d672b8d3bcbea5fdaee",
+    "url": "/cypa-yeps-website/static/media/Zinan Chen.5155ba35.jpg"
   },
   {
-    "revision": "a66a5bd0e0725441507d",
-    "url": "/cypa-yeps-website/static/css/main.6f2915e0.chunk.css"
+    "revision": "03bff3bb266fbc65d41a",
+    "url": "/cypa-yeps-website/static/css/main.a09c298d.chunk.css"
   },
   {
-    "revision": "e69585c8f46f928592b09fe40011762f",
-    "url": "/cypa-yeps-website/static/media/instagram.e69585c8.png"
+    "revision": "886008398aa9ed020367a9b2dec2a4ee",
+    "url": "/cypa-yeps-website/static/media/valley.88600839.png"
   },
   {
-    "revision": "3c1ceef6f0884a98bc59",
-    "url": "/cypa-yeps-website/static/js/1.3c1ceef6.chunk.js"
+    "revision": "eec7a52e052c47b710a3",
+    "url": "/cypa-yeps-website/static/js/1.eec7a52e.chunk.js"
   },
   {
     "revision": "643305c4de5ff317a8cf",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "1cd291950a0cfd19a8c3ce1d9c4ee7ee",
     "url": "/cypa-yeps-website/static/media/GirlUp.1cd29195.png"
+  },
+  {
+    "revision": "937c3dbe0d3c779780acb51fc3f5cd15",
+    "url": "/cypa-yeps-website/static/media/wechat.937c3dbe.jpg"
   },
   {
     "revision": "f989532bed52a984f6946942c3233c9a",
@@ -60,16 +64,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Yuyang Fan.5eb66017.jpg"
   },
   {
-    "revision": "5155ba352e865d672b8d3bcbea5fdaee",
-    "url": "/cypa-yeps-website/static/media/Zinan Chen.5155ba35.jpg"
+    "revision": "03bff3bb266fbc65d41a",
+    "url": "/cypa-yeps-website/static/js/main.03bff3bb.chunk.js"
   },
   {
     "revision": "34e7510e3653a95b8946823f955474e8",
     "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
-    "revision": "a66a5bd0e0725441507d",
-    "url": "/cypa-yeps-website/static/js/main.a66a5bd0.chunk.js"
+    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
+    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
   },
   {
     "revision": "cbae30b2bb9ae6b868afe1e7622236c3",
@@ -116,27 +120,11 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/华东师范大学.b80444ea.jpeg"
   },
   {
-    "revision": "886008398aa9ed020367a9b2dec2a4ee",
-    "url": "/cypa-yeps-website/static/media/valley.88600839.png"
+    "revision": "eec7a52e052c47b710a3",
+    "url": "/cypa-yeps-website/static/css/1.eb17acd3.chunk.css"
   },
   {
-    "revision": "937c3dbe0d3c779780acb51fc3f5cd15",
-    "url": "/cypa-yeps-website/static/media/wechat.937c3dbe.jpg"
-  },
-  {
-    "revision": "90bb90121702c03b6da051c2a7f5bfe1",
-    "url": "/cypa-yeps-website/static/media/wechat.90bb9012.png"
-  },
-  {
-    "revision": "75790097bcf37849deee700e08814880",
-    "url": "/cypa-yeps-website/static/media/linkedin.75790097.png"
-  },
-  {
-    "revision": "3c1ceef6f0884a98bc59",
-    "url": "/cypa-yeps-website/static/css/1.6eafb1c2.chunk.css"
-  },
-  {
-    "revision": "6f63fa6fb9a2a8487d8a9e69245cbf30",
+    "revision": "c664da2ada0d66ad1f749f1faa097def",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
