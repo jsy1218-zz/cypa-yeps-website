@@ -5,7 +5,7 @@
 
 .sponsor-title-font {
   font-family: SFProDisplay;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -15,9 +15,14 @@
   color: #4a4a4a;
 }
 
-.sponsor-col {
+.sponsor-col-blue {
   margin: auto;
   width: 160px;
+}
+.sponsor-col {
+  margin-right: -5%;
+  width: 160px;
+  margin-bottom: -20%;
 }
 
 .sponsor-title-font-small {
@@ -36,29 +41,53 @@
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
-.sponsor-rectangle-layout {
+.sponsor-title-layout-small-phone {
+  margin-top: -20%;
+  margin-bottom: 2%;
+}
+.sponsor-rectangle-layout-blue {
   width: 160px;
   height: 88px;
 }
-
+.sponsor-rectangle-layout {
+  width: 88px;
+  height: 160px;
+}
+.sponsor-background-rectangle-blue{
+  background-color: #1587ab;
+  z-index: -1;
+  position: relative;
+  left: -5%;
+  top: -80px;
+}
 .sponsor-background-rectangle {
   background-color: #ffa719;
   z-index: -1;
   position: relative;
-  left: -10%;
-  top: -70px;
+  left: 10%;
+  top: -150px;
 }
 
 .sponsor-title-font-desktop {
   font-family: sans-serif;
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: right;
-  color: #ffffff;
-  text-shadow: 0px 0px 10px #4a4a4a;
+  text-align: center;
+  color: #ffa719;
+}
+
+.sponsor-title-font-desktop-small{
+  font-family: sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffa719;
 }

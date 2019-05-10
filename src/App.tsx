@@ -1,3 +1,4 @@
+
 import * as React from 'react'
 
 import NavBar from './components/NavBar';
@@ -25,6 +26,7 @@ var SpeakerClass = isBrowser ? "speakers-desktop" : "speakers";
 var JointusClass = isBrowser ? "join-us-desktop" : "join-us";
 var AppIntroBg = isBrowser ? "" : "background-color-phone" ;
 var AppIntroBgOpacity = isBrowser ? "" : "background-opacity-phone";
+var SponsorsStyle = isBrowser ? "sponsors" : "sponsors-phone";
 
  export const App: React.StatelessComponent<{}> = () => {
   return (
@@ -59,12 +61,11 @@ var AppIntroBgOpacity = isBrowser ? "" : "background-opacity-phone";
       <div id={AGENDA2_ROUTE}>
         <Agenda2 />
       </div>
-
       <div className={JointusClass}>
         <BrowserView><div className="background-opacity" /></BrowserView>
         <JoinUs />
       </div>
-      <div className="sponsors">
+      <div className={SponsorsStyle}>
         <Sponsors />
       </div>
       <div className="connections">

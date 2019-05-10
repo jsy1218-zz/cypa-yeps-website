@@ -61,7 +61,12 @@
 .agenda {
   background-color: #f7f7f7;
 }
-
+.sponsors{
+  height: 840px;
+}
+.sponsors-phone{
+  height: 100%;
+}
 .connections {
   background-color: #ffffff;
 }

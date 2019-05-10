@@ -17,6 +17,8 @@ export const Speakers: React.StatelessComponent<{}> = () => {
        ,{ imgSource: require('../images/Ming Zhu.jpeg'), name: "Ming Zhu", title: "Founder & CEO", company: "| YiRental" }
        ,{ imgSource: require('../images/Yikun Zhao.png'), name: "YiKun Zhao", title: "VP, Flyhomes ", company: "| Flyhomes" }
        ,{ imgSource: require('../images/Vicky Fu.jpeg'), name: "Vicky Fu", title: "Sr Data Scientist", company: "| Microsoft" }
+       ,{ imgSource: require('../images/Yuyang Fan.jpg'), name: "Yuyang Fan", title: "Chief delegate of North America", company: "| YCE" }
+       ,{ imgSource: require('../images/Zinan Chen.jpg'), name: "Zinan Chen", title: " co-founder", company: "| UniWill Ventures" }
     ];
 
     if (isBrowser) {
@@ -67,6 +69,18 @@ export const Speakers: React.StatelessComponent<{}> = () => {
                                 name={speakersProps[6].name}
                                 title={speakersProps[6].title}
                                 company={speakersProps[6].company} />
+                             <Speaker
+                                imgSource={speakersProps[7].imgSource}
+                                name={speakersProps[7].name}
+                                title={speakersProps[7].title}
+                                company={speakersProps[7].company} />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Speaker
+                                imgSource={speakersProps[8].imgSource}
+                                name={speakersProps[8].name}
+                                title={speakersProps[8].title}
+                                company={speakersProps[8].company} />
                         </Carousel.Item>
                     </Carousel>
                 </Row>
@@ -136,6 +150,20 @@ export const Speakers: React.StatelessComponent<{}> = () => {
                     <SpeakersSticker title={speakersProps[6].title} company={speakersProps[6].company} />
                     <Carousel.Caption>
                         <h3>{speakersProps[6].name}</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="speakers-img" src={speakersProps[7].imgSource} />
+                    <SpeakersSticker title={speakersProps[7].title} company={speakersProps[7].company} />
+                    <Carousel.Caption>
+                        <h3>{speakersProps[7].name}</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img className="speakers-img" src={speakersProps[8].imgSource} />
+                    <SpeakersSticker title={speakersProps[8].title} company={speakersProps[8].company} />
+                    <Carousel.Caption>
+                        <h3>{speakersProps[8].name}</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
