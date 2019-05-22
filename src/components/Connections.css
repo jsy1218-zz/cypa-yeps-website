@@ -12,6 +12,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: #4a4a4a;
+  margin-left: -10%;
 }
 
 .connections-title-font-link {
@@ -36,24 +37,79 @@
   text-align: center;
   color: #4a4a4a;
 }
+.area-top{
+  background: #304d63;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.area-top-phone{
+  background: #1992b5;
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 .connections-title-layout-small {
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
-.cypa-layout {
-  width: 160px;
-  height: 151px;
+.aboutus{
+  margin-left: 32.5%;
+  font-weight: bold;
 }
-
+.stayconnected{
+  font-weight: bold;
+  margin-top:-3%;
+  margin-left: 72%;
+}
+.cypa-layout {
+  width: 190px;
+  height: 171px;
+}
+.cypa-layout-phone{
+  text-align: center;
+  width: 190px;
+  height: 171px;
+  margin-left: -45%;
+}
+.GirlUp-layout{
+  width: 230px;
+  height: 171px;
+  margin-top:5%;
+  margin-left: 20%;
+}
+.wechat-layout{
+  width: 200px;
+  height: 200px;
+  margin-top: -1%;
+  margin-left:70%;
+}
 .logo-layout {
   width: 40px;
   height: 40px;
   margin-left: 3%;
   margin-right: 3%;
 }
-
+.connections-title-font-phone{
+  color: #ffffff;
+  font-family: SFProDisplay;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-left: -5%;
+}
 .connections-title-font-desktop {
   font-family: sans-serif;
   font-size: 56px;
@@ -66,8 +122,29 @@
   color: #ffffff;
   opacity: 0.5;
 }
-
+.connections-title-font-phone-content{
+  font-family: SFProText;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.connections-title-font-desktop-content{
+  font-family: ArialUnicodeMS;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
 .connections-area {
-  background-color: #fda731;
+  background-color: #ffffff;
   width: 100%;
 }
