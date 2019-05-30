@@ -4,7 +4,9 @@
   margin-top: 10%;
   position: relative;
 }
-
+.speakersname{
+  margin-bottom: 10px;
+}
 .carousel-caption {
   right: auto;
   left: auto;
