@@ -1,10 +1,10 @@
 {
-  "main.css": "/cypa-yeps-website/static/css/main.5bbd491e.chunk.css",
-  "main.js": "/cypa-yeps-website/static/js/main.705304e7.chunk.js",
-  "main.js.map": "/cypa-yeps-website/static/js/main.705304e7.chunk.js.map",
+  "main.css": "/cypa-yeps-website/static/css/main.d244e31e.chunk.css",
+  "main.js": "/cypa-yeps-website/static/js/main.dafdbbd6.chunk.js",
+  "main.js.map": "/cypa-yeps-website/static/js/main.dafdbbd6.chunk.js.map",
   "static/css/1.b835fa41.chunk.css": "/cypa-yeps-website/static/css/1.b835fa41.chunk.css",
-  "static/js/1.b3074f4d.chunk.js": "/cypa-yeps-website/static/js/1.b3074f4d.chunk.js",
-  "static/js/1.b3074f4d.chunk.js.map": "/cypa-yeps-website/static/js/1.b3074f4d.chunk.js.map",
+  "static/js/1.4fc37543.chunk.js": "/cypa-yeps-website/static/js/1.4fc37543.chunk.js",
+  "static/js/1.4fc37543.chunk.js.map": "/cypa-yeps-website/static/js/1.4fc37543.chunk.js.map",
   "runtime~main.js": "/cypa-yeps-website/static/js/runtime~main.643305c4.js",
   "runtime~main.js.map": "/cypa-yeps-website/static/js/runtime~main.643305c4.js.map",
   "static/media/App.css": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg",
@@ -34,9 +34,9 @@
   "static/media/special acknowledgement-phone.jpg": "/cypa-yeps-website/static/media/special acknowledgement-phone.5f133fd5.jpg",
   "static/media/alumni association-phone.png": "/cypa-yeps-website/static/media/alumni association-phone.a4deb2c7.png",
   "static/media/Social organization-phone.png": "/cypa-yeps-website/static/media/Social organization-phone.4d7a12a4.png",
+  "static/css/main.d244e31e.chunk.css.map": "/cypa-yeps-website/static/css/main.d244e31e.chunk.css.map",
   "static/css/1.b835fa41.chunk.css.map": "/cypa-yeps-website/static/css/1.b835fa41.chunk.css.map",
-  "static/css/main.5bbd491e.chunk.css.map": "/cypa-yeps-website/static/css/main.5bbd491e.chunk.css.map",
   "index.html": "/cypa-yeps-website/index.html",
-  "precache-manifest.61cf66010a4402fd7d7770390b7fdf93.js": "/cypa-yeps-website/precache-manifest.61cf66010a4402fd7d7770390b7fdf93.js",
+  "precache-manifest.d8c271e8bf9e06c48f0c20c2485e5b63.js": "/cypa-yeps-website/precache-manifest.d8c271e8bf9e06c48f0c20c2485e5b63.js",
   "service-worker.js": "/cypa-yeps-website/service-worker.js"
 }
