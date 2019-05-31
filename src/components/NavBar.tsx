@@ -1,8 +1,6 @@
 import * as React from 'react';
 
-import { Button } from 'react-bootstrap';
 import { NavItem, Nav, Navbar } from 'react-bootstrap';
-
 import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, JOIN_US_ROUTE } from '../constants/AppRouterConstants';
 
 import './NavBar.css';
@@ -26,9 +24,7 @@ export default class NavBar extends React.Component<Props, State> {
     render() {
         let logo = require('../images/yeps-logo@3x.png');
         let collapsedMenu = this.state.isExpanded ? 'collapsed-menu' : 'menu';
-    {/*let languageButton = this.state.isExpanded ? 'collapsed-menu' : '';*/}
         var  BarStyle = isBrowser ? "barstyle-desktop" : "barstyle-phone"
-        var  LanguageButton = isBrowser ? "language-button" : "language-button-phone";
         var  LogoWrapper = isBrowser ? "logo-wrapper" : "logo-wrapper-phone";
         var  LogoFont = isBrowser ? "logo-font" : "logo-font-phone";
 
@@ -43,13 +39,9 @@ export default class NavBar extends React.Component<Props, State> {
                         <Navbar.Text>
                             <span className={LogoFont}>YEPS</span>
                         </Navbar.Text>
-                            <Button className={LanguageButton} type="submit">LANGUAGE</Button>
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight className={collapsedMenu}>
-                            {/*<Navbar.Form pullLeft className={languageButton}>
-                                <Button className={'language-button'} type="submit">Language</Button>
-                            </Navbar.Form>*/}
                             <NavItem eventKey={1} href={'#' + KEYNOTE_ROUTE}>
                                 Keynote
                             </NavItem>
