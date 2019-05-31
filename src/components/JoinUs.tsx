@@ -23,7 +23,7 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
     
                 <Row className="show-grid join-us-title-layout">
                     <Col xs={10} xsOffset={1}>
-                        <Button bsStyle="warning" bsSize="large">Register Now</Button>
+                        <Button bsStyle="warning" bsSize="large"><a className="registerNowbutton1" href="https://www.eventbrite.com/e/2019-young-entrepreneurs-and-professionals-summit-seattle-yeps-tickets-61850120375">Register Now</a></Button>
                     </Col>
                 </Row>
                 </Col>
@@ -47,7 +47,7 @@ export const JoinUs: React.StatelessComponent<{}> = () => {
 
             <Row className="show-grid join-us-title-layout">
                 <Col xs={10} xsOffset={1}>
-                    <Button bsStyle="default" className="btn-default" bsSize="large">Register Now</Button>
+                    <Button bsStyle="default" className="btn-default" bsSize="large"><a className="registerNowbutton1" href="https://www.eventbrite.com/e/2019-young-entrepreneurs-and-professionals-summit-seattle-yeps-tickets-61850120375">Register Now</a></Button>
                 </Col>
             </Row>
         </Grid>

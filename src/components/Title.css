@@ -1,4 +1,4 @@
-.title-style{
+.title-style {
   text-align: left;
 }
 .title-font {
@@ -28,11 +28,11 @@
   color: #ffffff;
 }
 .location-font {
-  text-align: left;  
+  text-align: left;
   width: 253px;
   height: 102.8px;
   font-family: SFProDisplay;
-  font-size:10px;
+  font-size: 10px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -40,27 +40,26 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.location-text-style{
+.location-text-style {
   line-height: 3.33;
 }
 
-.margin-row{
+.margin-row {
   margin-top: 100px;
 }
-.margin-row-text{
-  margin-bottom:50px;
+.margin-row-text {
+  margin-bottom: 50px;
 }
-.margin-row-title{
+.margin-row-title {
   margin-top: 60%;
   text-align: left;
   margin-left: 10%;
 }
-.margin-row-address{
-  margin-top:5%;
+.margin-row-address {
+  margin-top: 5%;
   text-align: left;
   margin-left: 4px;
 }
-
 
 .margin-bottom {
   margin-bottom: 10%;
@@ -69,7 +68,7 @@
 .margin-row-small {
   margin-top: 5%;
 }
-.registerNowphone1{
+.registerNowphone1 {
   width: 122px;
   height: 32px;
   font-family: SFProText;
@@ -85,7 +84,7 @@
   color: #000000;
   background: #ffffff;
 }
-.registerNowphone{
+.registerNowphone {
   justify-items: center;
 }
 
@@ -108,11 +107,11 @@
 .margin-row-small {
   margin-top: 5%;
 }
-.margin-left{
+.margin-left {
   margin-left: 585px;
 }
-.line-style{
- margin-top: 15px;
+.line-style {
+  margin-top: 15px;
 }
 .address-font-desktop {
   width: 400px;
@@ -128,11 +127,11 @@
   color: #ffffff;
 }
 
-.address-font-desktop2{
+.address-font-desktop2 {
   line-height: 6.66;
 }
 
-.registerNow{
+.registerNow {
   width: 150px;
   height: 40px;
   font-family: SFProText;
@@ -145,6 +144,19 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  color:#4b5c78;
+  color: #4b5c78;
   background: #ffffff;
+  cursor: pointer;
+}
+.registerNowbutton:link {
+  text-decoration: none;
+}
+.registerNowbutton:visited {
+  text-decoration: none;
+}
+.registerNowbutton:active {
+  text-decoration: none;
+}
+.registerNowbutton:hover {
+  text-decoration: none;
 }

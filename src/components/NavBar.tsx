@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Button } from 'react-bootstrap';
 import { NavItem, Nav, Navbar } from 'react-bootstrap';
 
-import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, JOIN_US_ROUTE } from '../constants/AppRouterConstants';
+import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, CONNECTIONS_ROUTE } from '../constants/AppRouterConstants';
 
 import './NavBar.css';
 import {
@@ -59,7 +59,7 @@ export default class NavBar extends React.Component<Props, State> {
                             <NavItem eventKey={3} href={'#' + AGENDA_ROUTE}>
                                 Agenda
                             </NavItem>
-                            <NavItem eventKey={4} href={'#' + JOIN_US_ROUTE}>
+                            <NavItem eventKey={4} href={'#' + CONNECTIONS_ROUTE}>
                                 About
                             </NavItem>
                         </Nav>
