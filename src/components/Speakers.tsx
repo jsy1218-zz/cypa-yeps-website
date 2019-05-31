@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Carousel } from 'react-bootstrap';
-import { Button, Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 import { SpeakersSticker } from '../constants/SpeakersSticker';
 import { Speaker } from '../constants/SpeakerDesktop';
@@ -131,7 +131,6 @@ export const Speakers: React.StatelessComponent<{}> = () => {
                 
                 <Row className="show-grid speakers-title-layout">
                     <Col xs={10} xsOffset={1}>
-                        <Button bsStyle="warning" bsSize="large">View All Speakers</Button>
                     </Col>
                 </Row>
             </Grid>
@@ -263,7 +262,6 @@ export const Speakers: React.StatelessComponent<{}> = () => {
 
             <Row className="show-grid speakers-title-layout">
                 <Col xs={10} xsOffset={1}>
-                    <Button bsStyle="default" className="btn-default" bsSize="large">View All Speakers</Button>
                 </Col>
             </Row>
         </Grid>

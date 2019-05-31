@@ -25,7 +25,7 @@ export const Title: React.StatelessComponent<{}> = () => {
                     </Col>
                     <Col md={4} mdOffset={0} className="address-font-desktop">
                         <span>
-                            Saturday May 18th, 2019 | 1:30pm - 7:30pm PST
+                            Saturday June 1th, 2019 | 1:30pm - 6:30pm PST
                         </span>
                          <span className="address-font-desktop2"></span>
                         <br />
@@ -39,7 +39,7 @@ export const Title: React.StatelessComponent<{}> = () => {
     
                 <Row className="show-grid margin-row-small margin-bottom-desktop">
                     <Col md={10} mdOffset={2}>
-                        <Button className="registerNow">Register Now</Button>
+                        <Button className="registerNow"><a className="registerNowbutton" href="https://www.eventbrite.com/e/2019-young-entrepreneurs-and-professionals-summit-seattle-yeps-tickets-61850120375">Register Now</a></Button>
                     </Col>
                 </Row>
             </Grid>
@@ -60,7 +60,7 @@ export const Title: React.StatelessComponent<{}> = () => {
                         </Col>
                         <Col span={4} xsPull={0}>
                             <span className="location-font"> 
-                            Saturday May 18th, 2019 | 1:30pm - 7:30pm PST 
+                            Saturday June 1th, 2019 | 1:30pm - 6:30pm PST 
                             </span>
                             <span className="location-text-style"></span>
                             <br />
@@ -77,7 +77,7 @@ export const Title: React.StatelessComponent<{}> = () => {
                 <Row className="show-grid margin-row-small margin-bottom">
                     <Col xs={18} xsOffset={2} className="registerNowphone">
                     <ButtonToolbar>
-                        <Button className="registerNowphone1">Register Now</Button>
+                        <Button className="registerNowphone1"><a className="registerNowbutton" href="https://www.eventbrite.com/e/2019-young-entrepreneurs-and-professionals-summit-seattle-yeps-tickets-61850120375">Register Now</a></Button>
                     </ButtonToolbar>
                     </Col>
                 </Row>

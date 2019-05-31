@@ -12,7 +12,7 @@ import './App.css';
 import JoinUs from './components/JoinUs';
 import Sponsors from './components/Sponsors';
 import Connections from './components/Connections';
-import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE } from './constants/AppRouterConstants';
+import { KEYNOTE_ROUTE, SPEAKERS_ROUTE, AGENDA_ROUTE, CONNECTIONS_ROUTE } from './constants/AppRouterConstants';
 
 import {
   isBrowser, BrowserView
@@ -60,7 +60,7 @@ var SponsorsStyle = isBrowser ? "sponsors" : "sponsors-phone";
       <div className={SponsorsStyle}>
         <Sponsors />
       </div>
-      <div className="connections">
+      <div className="connections" id={CONNECTIONS_ROUTE}>
         <Connections />
       </div>
     </div>
