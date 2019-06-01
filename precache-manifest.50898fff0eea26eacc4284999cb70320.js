@@ -1,23 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "8bb48f6bbb410887dad249a0b49f59ae",
-    "url": "/cypa-yeps-website/static/media/Michelle Zou.8bb48f6b.png"
+    "revision": "5a3e303a136c6408daa2a8c88ac8a803",
+    "url": "/cypa-yeps-website/static/media/Vicky Fu.5a3e303a.png"
   },
   {
-    "revision": "59065d29bd011724af49",
-    "url": "/cypa-yeps-website/static/css/main.2da70d20.chunk.css"
+    "revision": "607f2e079919fa481529",
+    "url": "/cypa-yeps-website/static/css/main.962e6806.chunk.css"
   },
   {
     "revision": "4d7a12a49866e872b16370931d359f2a",
     "url": "/cypa-yeps-website/static/media/Social organization-phone.4d7a12a4.png"
   },
   {
-    "revision": "4fc37543f4ff81449819",
-    "url": "/cypa-yeps-website/static/js/1.4fc37543.chunk.js"
+    "revision": "8cdfb75790084ef0a8c4",
+    "url": "/cypa-yeps-website/static/js/1.8cdfb757.chunk.js"
   },
   {
     "revision": "643305c4de5ff317a8cf",
     "url": "/cypa-yeps-website/static/js/runtime~main.643305c4.js"
+  },
+  {
+    "revision": "cbae30b2bb9ae6b868afe1e7622236c3",
+    "url": "/cypa-yeps-website/static/media/phonedesktop3x.cbae30b2.png"
+  },
+  {
+    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
+    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
+  },
+  {
+    "revision": "34e7510e3653a95b8946823f955474e8",
+    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
     "revision": "f8e433bd5e9b31a2fc298ecc000f71b6",
@@ -56,8 +68,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Yikun Zhao.93c7638c.png"
   },
   {
-    "revision": "5a3e303a136c6408daa2a8c88ac8a803",
-    "url": "/cypa-yeps-website/static/media/Vicky Fu.5a3e303a.png"
+    "revision": "607f2e079919fa481529",
+    "url": "/cypa-yeps-website/static/js/main.607f2e07.chunk.js"
   },
   {
     "revision": "ae6a56b211afbd045dbb17a5fa58e6af",
@@ -68,8 +80,8 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/Zinan Chen.13de5e20.png"
   },
   {
-    "revision": "59065d29bd011724af49",
-    "url": "/cypa-yeps-website/static/js/main.59065d29.chunk.js"
+    "revision": "8bb48f6bbb410887dad249a0b49f59ae",
+    "url": "/cypa-yeps-website/static/media/Michelle Zou.8bb48f6b.png"
   },
   {
     "revision": "021650ec5b834ab3b119e8987e23fb82",
@@ -96,18 +108,6 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/ChristopherBrown.e5777f7d.png"
   },
   {
-    "revision": "34e7510e3653a95b8946823f955474e8",
-    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
-  },
-  {
-    "revision": "cbae30b2bb9ae6b868afe1e7622236c3",
-    "url": "/cypa-yeps-website/static/media/phonedesktop3x.cbae30b2.png"
-  },
-  {
-    "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
-    "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
-  },
-  {
     "revision": "d9e7943c307039cd64e8dc33c30b6c82",
     "url": "/cypa-yeps-website/static/media/青.集团.d9e7943c.jpg"
   },
@@ -132,11 +132,11 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/media/alumni association-phone.a4deb2c7.png"
   },
   {
-    "revision": "4fc37543f4ff81449819",
-    "url": "/cypa-yeps-website/static/css/1.b835fa41.chunk.css"
+    "revision": "8cdfb75790084ef0a8c4",
+    "url": "/cypa-yeps-website/static/css/1.ea6228e0.chunk.css"
   },
   {
-    "revision": "0c1e8a40df4d5b1e77261f5a27df4d24",
+    "revision": "d45eb3dc66a157d05d63489a444ec27e",
     "url": "/cypa-yeps-website/index.html"
   }
 ];
