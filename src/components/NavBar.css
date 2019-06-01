@@ -19,10 +19,31 @@
 .navbar-default {
   background: transparent;
   border-color: transparent;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
   height: 70px;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
   margin-bottom: 0px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  position: relative;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .barstyle-desktop {

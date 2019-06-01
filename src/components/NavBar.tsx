@@ -27,6 +27,18 @@ export default class NavBar extends React.Component<Props, State> {
         var  BarStyle = isBrowser ? "barstyle-desktop" : "barstyle-phone"
         var  LogoWrapper = isBrowser ? "logo-wrapper" : "logo-wrapper-phone";
         var  LogoFont = isBrowser ? "logo-font" : "logo-font-phone";
+        const topStyle = {
+            margin: {
+              "margin-top": "0px"
+            } as React.CSSProperties,
+          }
+
+        const sideStyle = {
+        margin: {
+            "margin-left": "0px",
+            "margin-right": "0px"
+        } as React.CSSProperties,
+        }
 
         return (
             <div className={'navbar-default'}>
@@ -40,8 +52,8 @@ export default class NavBar extends React.Component<Props, State> {
                             <span className={LogoFont}>YEPS</span>
                         </Navbar.Text>
                     </Navbar.Header>
-                    <Navbar.Collapse>
-                        <Nav pullRight className={collapsedMenu}>
+                    <Navbar.Collapse style={sideStyle.margin}>
+                        <Nav pullRight className={collapsedMenu} style={topStyle.margin}>
                             <NavItem eventKey={1} href={'#' + KEYNOTE_ROUTE}>
                                 Keynote
                             </NavItem>
