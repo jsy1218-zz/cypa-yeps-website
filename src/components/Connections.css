@@ -43,15 +43,15 @@
   display: flex;
   align-items: center;
   margin-top: 15%;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .area-top-phone {
   background: #1992b5;
   display: flex;
   align-items: center;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-bottom: 5%;
   margin-top: 2%;
   margin-bottom: 2%;

@@ -21,7 +21,7 @@
 .App-intro {
   background-repeat: no-repeat;
   background-image: url('./images/phonedesktop3x.png');
-  background-size:75%;
+  background-size: 75%;
   background-repeat: no-repeat;
   background-position: center 20%;
 }
@@ -33,19 +33,19 @@
 }
 .background-color-phone {
   position: absolute;
-  width: 345px;
-  height:400px;
+  width: 100%;
+  height: 400px;
   background: #000000;
   top: 0;
-  z-index: -1; 
-  text-align: center; 
+  z-index: -1;
+  text-align: center;
 }
 .background-opacity-phone {
   position: absolute;
-  width: 345px;
-  height: 325px;
+  width: 100%;
+  height: 60%;
   top: 50%;
-  background-image:linear-gradient(to top, #435a81 0%, #000000);
+  background-image: linear-gradient(to top, #435a81 0%, #000000);
   z-index: -1;
 }
 
@@ -61,10 +61,10 @@
 .agenda {
   background-color: #f7f7f7;
 }
-.sponsors{
+.sponsors {
   height: 2000px;
 }
-.sponsors-phone{
+.sponsors-phone {
   height: 100%;
 }
 .connections {
@@ -73,6 +73,17 @@
 
 .join-us {
   background-image: linear-gradient(to bottom, #1ea4c5, #0d6b93);
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @keyframes App-logo-spin {
@@ -85,19 +96,19 @@
 }
 
 .App-intro-desktop {
- background-image:linear-gradient(130deg,#000000,85%,#435a81);
+  background-image: linear-gradient(130deg, #000000, 85%, #435a81);
 }
-.App-intro-desktop-title{
+.App-intro-desktop-title {
   background-repeat: no-repeat;
   background-image: url('./images/phonedesktop3x.png');
-  background-size:30%;
-  background-position:15% 70%;
+  background-size: 30%;
+  background-position: 15% 70%;
 }
 
 .background-color {
   position: absolute;
   width: 100%;
-  height:65%;
+  height: 65%;
   background: #000000;
   top: 0;
   z-index: -1;
@@ -107,7 +118,7 @@
   width: 100%;
   height: 50%;
   top: 55%;
-  background-image:linear-gradient(130deg,#000000,90%,#435a81);
+  background-image: linear-gradient(130deg, #000000, 90%, #435a81);
   z-index: -1;
 }
 
