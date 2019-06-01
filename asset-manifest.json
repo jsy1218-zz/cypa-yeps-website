@@ -8,7 +8,7 @@
   "runtime~main.js": "/cypa-yeps-website/static/js/runtime~main.643305c4.js",
   "runtime~main.js.map": "/cypa-yeps-website/static/js/runtime~main.643305c4.js.map",
   "static/media/ChristopherBrown.png": "/cypa-yeps-website/static/media/ChristopherBrown.e5777f7d.png",
-  "static/media/App.css": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg",
+  "static/media/App.css": "/cypa-yeps-website/static/media/phonedesktop3x.cbae30b2.png",
   "static/media/cypa.png": "/cypa-yeps-website/static/media/cypa.f8e433bd.png",
   "static/media/GirlUp.png": "/cypa-yeps-website/static/media/GirlUp.1cd29195.png",
   "static/media/wechat.jpg": "/cypa-yeps-website/static/media/wechat.937c3dbe.jpg",
@@ -37,6 +37,6 @@
   "static/css/main.962e6806.chunk.css.map": "/cypa-yeps-website/static/css/main.962e6806.chunk.css.map",
   "static/css/1.ea6228e0.chunk.css.map": "/cypa-yeps-website/static/css/1.ea6228e0.chunk.css.map",
   "index.html": "/cypa-yeps-website/index.html",
-  "precache-manifest.50898fff0eea26eacc4284999cb70320.js": "/cypa-yeps-website/precache-manifest.50898fff0eea26eacc4284999cb70320.js",
+  "precache-manifest.081e078f46c36a8ccc593b7c8c5b288d.js": "/cypa-yeps-website/precache-manifest.081e078f46c36a8ccc593b7c8c5b288d.js",
   "service-worker.js": "/cypa-yeps-website/service-worker.js"
 }

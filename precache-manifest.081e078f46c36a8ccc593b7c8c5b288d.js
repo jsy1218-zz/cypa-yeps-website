@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/cypa-yeps-website/static/js/runtime~main.643305c4.js"
   },
   {
+    "revision": "34e7510e3653a95b8946823f955474e8",
+    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
+  },
+  {
     "revision": "cbae30b2bb9ae6b868afe1e7622236c3",
     "url": "/cypa-yeps-website/static/media/phonedesktop3x.cbae30b2.png"
   },
   {
     "revision": "05de6d7cddb12bdf9436263fd0a8fa03",
     "url": "/cypa-yeps-website/static/media/desktop2.05de6d7c.jpeg"
-  },
-  {
-    "revision": "34e7510e3653a95b8946823f955474e8",
-    "url": "/cypa-yeps-website/static/media/desktop3.34e7510e.jpeg"
   },
   {
     "revision": "f8e433bd5e9b31a2fc298ecc000f71b6",
